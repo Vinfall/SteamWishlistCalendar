@@ -9,7 +9,7 @@ Larcin Lazer		2023-01-24
 HYPERBLADE		2023-02-01
 1BITDRAGON		2022-03-18
 二分之一		2023-03-17
-Betrix		2023-08-31
+Betrix		2023-09-30
 Word Factori		2023-08-03
 苍蓝恋诗：殆尽的八月之星		2023-11-30
 Doodle World Deluxe		2023-03-31
@@ -19,4 +19,3 @@ Neoclip		2023-08-08
 PuzzleSquare		2023-07-20
 少女理论以及周边 -École de Paris-		2023-09-15
 The Last Hero: Journey to the Unknown		2023-09-06
-Devil Peach Soda		2023-09-08
