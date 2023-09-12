@@ -1,4 +1,8 @@
 # Steam Wishlist Calendar
+
+This is forked from [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar), please open issue/PR in that repo.
+
+---
 ![Wishlist History](output/wishlist_history_chart.png?raw=true "Wishlist History")
  
 ![Wishlist History Stack Plot](output/wishlist_history_stack_plot.png?raw=true "Wishlist History Stack Plot")
