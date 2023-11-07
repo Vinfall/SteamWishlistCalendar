@@ -2,7 +2,7 @@ name: analyze-wishlist
 
 on:
   schedule:
-    - cron: '0 4 * * 5' # 4:00 UTC everyday Friday
+    - cron: '0 4 * * 2,5' # 4:00 UTC everyday Tuesday & Friday
   workflow_dispatch:
 
 jobs:
