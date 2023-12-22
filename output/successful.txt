@@ -1,6 +1,5 @@
 Project LUX		2018-02-02
 Beat Saber		2019-05-21
-Sorcery Jokers All Ages Version		2018-01-13
 Granblue Fantasy: Relink		2024-01-31
 Afterlove EP		2024-08-31
 Solitris		2023-11-18
@@ -20,4 +19,5 @@ NUKITASHI 2		2024-02-29
 水箱		2023-11-30
 垃圾桶军团		2024-01-31
 Cats Huddled Together 挤在一起的猫猫们		2023-12-16
-Pixsaw		2023-12-20
+Pixsaw		2023-12-21
+ONE.		2023-12-21
