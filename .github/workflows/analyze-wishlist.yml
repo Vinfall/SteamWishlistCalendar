@@ -27,16 +27,24 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: execute py script
-        run: python -m swc -i=${{ secrets.STEAMUID }} -d=True
+        run: |
+	  python -m swc -i=${{ secrets.STEAMUID }} -d=True
+          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/wishlist.ics
+
+      - name: check changes
+        id: check_changes
+        run: if [[ $(git diff --name-only HEAD^ HEAD) == *"output/successful.txt"* ]]; then echo "::set-output name=changes::true"; else echo "::set-output name=changes::false"; fi
 
       - name: commit files
+        if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Update wishlist data" -a
+          git commit -m "ics: update release calendar" -a
 
       - name: push changes
+        if: steps.check_changes.outputs.changes == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
