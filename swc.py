@@ -12,7 +12,7 @@ from ics import Calendar, Event
 from matplotlib import pyplot
 from matplotlib import ticker
 
-
+# fmt: off
 _SEP = '-09-15'
 _TOTAL = 'total'
 _RELEASE_DATE = 'release_date'
@@ -249,3 +249,4 @@ pyplot.title('Wishlist History - Stack Plot', color=_LABEL_COLOR)
 annotate_run_time(pyplot)
 fig.autofmt_xdate()
 pyplot.savefig(_OUTPUT_FOLDER + _HISTORY_STACK_PLOT_FILE, dpi=_DPI)
+# fmt: on
