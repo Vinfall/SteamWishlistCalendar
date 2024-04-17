@@ -2,7 +2,7 @@ name: analyze-wishlist
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 4:00 UTC everyday
+    - cron: "0 4 * * *" # 4:00 UTC everyday
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,6 @@ jobs:
       matrix:
         python-version: ["3.12"]
     steps:
-
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -49,3 +48,16 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
+      - name: release
+        # push to release regardless
+        # if: ${{ steps.check_changes.outputs.changes == 'true' }}
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          tag: action
+          prerelease: True
+          body: ${{ steps.extract_notes.outputs.release_notes }}
+          omitNameDuringUpdate: True
+          artifacts: "output/*"
+          token: ${{ secrets.GITHUB_TOKEN }}
