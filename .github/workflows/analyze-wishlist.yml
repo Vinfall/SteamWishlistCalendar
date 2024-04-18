@@ -52,6 +52,8 @@ jobs:
       - name: commit plots
         run: |
           git checkout output
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add -A
           git commit --amend --no-edit
 
