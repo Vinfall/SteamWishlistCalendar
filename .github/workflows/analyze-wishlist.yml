@@ -49,15 +49,28 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
 
-      - name: release
-        # push to release regardless
-        # if: ${{ steps.check_changes.outputs.changes == 'true' }}
-        uses: ncipollo/release-action@v1
+      - name: commit plots
+        run: |
+          git checkout output
+          git add -A
+          git commit --amend --no-edit
+
+      - name: push plots to output branch
+        uses: ad-m/github-push-action@master
         with:
-          allowUpdates: True
-          tag: action
-          prerelease: True
-          body: ${{ steps.extract_notes.outputs.release_notes }}
-          omitNameDuringUpdate: True
-          artifacts: "output/*"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          force: True
+
+      # - name: release
+      #   # push to release regardless
+      #   # if: ${{ steps.check_changes.outputs.changes == 'true' }}
+      #   uses: ncipollo/release-action@v1
+      #   with:
+      #     allowUpdates: True
+      #     tag: action
+      #     prerelease: True
+      #     body: ${{ steps.extract_notes.outputs.release_notes }}
+      #     omitNameDuringUpdate: True
+      #     artifacts: "output/*"
+      #     token: ${{ secrets.GITHUB_TOKEN }}
