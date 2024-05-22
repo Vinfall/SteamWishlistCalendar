@@ -1,10 +1,14 @@
+Liftoff®: FPV Drone Racing		2018-09-13
 Project LUX		2018-02-02
 Beat Saber		2019-05-21
+The Drone Racing League Simulator		2017-11-01
 变成回忆的你～告别回忆～		2024-01-31
+DCL - The Game		2020-02-18
 Afterlove EP		2024-08-31
 Dream Tactics		2024-04-15
 苍蓝恋诗：殆尽的八月之星		2024-09-15
 Neoclip		2023-08-08
+勇者蛋生		2024-05-20
 エッグウォーパズル		2023-11-22
 欠债与恋爱相连		2024-10-31
 我在疗养院送人上西天		2024-01-03
@@ -16,7 +20,3 @@ Neoclip		2023-08-08
 Aerial_Knight's We Never Yield		2024-09-15
 Prehistoric Gal		2024-04-09
 Slay the Spire 2		2025-09-15
-勇者蛋生		2024-05-20
-The Drone Racing League Simulator		2017-11-01
-DCL - The Game		2020-02-18
-Liftoff®: FPV Drone Racing		2018-09-13
