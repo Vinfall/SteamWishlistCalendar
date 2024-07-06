@@ -10,6 +10,8 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - dependencies
+    commit-message:
+      prefix: "build/deps"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -17,4 +19,4 @@ updates:
     labels:
       - dependencies
     commit-message:
-      prefix: "build/deps"
+      prefix: "ci"
