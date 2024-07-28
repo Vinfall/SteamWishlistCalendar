@@ -7,7 +7,7 @@ on:
   pull_request:
 
 permissions:
-  contents: write
+  contents: read
   pull-requests: read
 
 jobs:
@@ -29,4 +29,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: execute py script
-        run: python -m swc -i=${{ secrets.STEAMUID }} -d=True
+        env:
+          uid: ${{ secrets.STEAMUID }}
+        run: python -m swc -i=uid -d=True
