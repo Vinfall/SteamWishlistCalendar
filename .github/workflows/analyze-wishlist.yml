@@ -2,8 +2,11 @@ name: analyze-wishlist
 
 on:
   schedule:
-    - cron: "0 4 * * *" # 4:00 UTC everyday
+    - cron: 0 4 * * * # 4:00 UTC everyday
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -12,12 +15,12 @@ jobs:
       matrix:
         python-version: ["3.12"]
     steps:
-      - name: Checkout repo
+      - name: checkout repo
         uses: actions/checkout@v4
         with:
           ref: main
 
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
