@@ -4,13 +4,13 @@ Beat Saber		2019-05-21
 The Drone Racing League Simulator		2017-11-01
 变成回忆的你～告别回忆～		2024-01-31
 DCL - The Game		2020-02-18
-青天井		2024-11-30
 Afterlove EP		2024-08-31
 Super Onion Boy 2		2021-08-06
 Rooster		2025-02-28
 CATO 黄油猫		2024-09-15
 苍蓝恋诗：殆尽的八月之星		2024-09-15
 迷你空管		2024-07-31
+FAIRY TAIL 地下迷城		2024-08-26
 神罪降临 Uberich: Advent Sinners		2024-09-15
 エッグウォーパズル		2023-11-22
 欠债与恋爱相连		2024-11-30
@@ -22,4 +22,4 @@ Prehistoric Gal		2024-04-09
 Slay the Spire 2		2025-09-15
 Super Onion Boy+		2024-05-31
 Where is the Tutorial		2024-06-27
-FAIRY TAIL 地下迷城		2024-08-26
+青天井		2024-11-30
