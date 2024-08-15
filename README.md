@@ -1,5 +1,7 @@
 # Steam Wishlist Calendar
 
+[![Build](https://github.com/Vinfall/SteamWishlistCalendar/actions/workflows/analyze-wishlist.yml/badge.svg?branch=main)](https://github.com/Vinfall/SteamWishlistCalendar/actions/workflows/analyze-wishlist.yml) [![Test](https://github.com/Vinfall/SteamWishlistCalendar/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Vinfall/SteamWishlistCalendar/actions/workflows/test.yml)
+
 This is forked from [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar), please open issue/PR in that repo.
 
 ---
