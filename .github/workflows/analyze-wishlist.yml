@@ -66,11 +66,25 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
 
+      - name: stash png outputs
+        if: ${{ steps.check_changes.outputs.changes == 'true' }}
+        run: |
+          git add -f output/*.png
+          git stash
+
       - name: checkout output branch
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
         uses: actions/checkout@v4
         with:
           ref: output
+
+      - name: get png outputs from stash
+        if: ${{ steps.check_changes.outputs.changes == 'true' }}
+        run: |
+          set -e
+          git stash apply || true
+          git checkout --theirs -- output/*.png
+          git stash drop
 
       - name: commit plots
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
