@@ -2,4 +2,4 @@ dateparser==1.2.0
 ics==0.8.0.dev0
 matplotlib==3.9.2
 requests==2.32.3
-regex==2024.7.24
+regex==2024.9.11
