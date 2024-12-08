@@ -17,10 +17,13 @@
 
 1. Make sure your Steam profile is public.
 2. `pip install -r requirements.txt`
+<!-- trunk-ignore(markdownlint/MD034) -->
 3. `python swc.py -i={steam ID}` or `python -m swc -i={steam ID}`, where steam ID is the long number you see in your profile URL. If you have a custom URL, you can find out your steam ID here: https://steamid.io/
-    
+
    Optional parameters:
+
    - `-d`: whether to include DLCs. Default is `False`.
+
 4. When finished, the script generates 5 files in [`/output`](output/) directory.
    - [`wishlist.ics`](output/wishlist.ics): an `.ICS` file, which can be imported into common calendar applications, such as Google Calendar and Outlook. Learn more about this format on [Wikipedia](https://en.wikipedia.org/wiki/ICalendar).
    - [`history.json`](output/history.json): stores the number of wishlisted items, as well as the number of pre-releases among them, of the day. Keeps growing.
