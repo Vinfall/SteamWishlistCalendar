@@ -6,20 +6,26 @@ DTSTART;VALUE=DATE:20180913
 DTEND;VALUE=DATE:20180914
 SUMMARY:Liftoff®: FPV Drone Racing
 UID:410340
-DESCRIPTION:https://store.steampowered.com/app/410340
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a 
+ drone simulator that translates the rush of first-person view drone flight
+  to the digital world. Join the biggest community for virtual FPV racing 
+ and freestyle!\n\nDate string from steam: "2018-09-13"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250915
-DTEND;VALUE=DATE:20250916
-SUMMARY:警区
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:The Precinct
 UID:490110
-DESCRIPTION:https://store.steampowered.com/app/490110\nEstimation based on 
- "2025 年"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/490110\n\nAverno City\, 
+ 1983. Gangs rule the streets and your father lies restless in his grave. 
+ Clean up the city\, uncover the truth\, and embark on thrilling vehicle 
+ chases through destructible environments in this neon-noir action sandbox 
+ police game.\n\nDate string from steam: "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -27,9 +33,14 @@ DTSTART;VALUE=DATE:20180202
 DTEND;VALUE=DATE:20180203
 SUMMARY:Project LUX
 UID:574140
-DESCRIPTION:https://store.steampowered.com/app/574140
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/574140\n\nThe crime... is 
+ murder.\r\n\r\nOur story takes place in a court trial\, set in a 
+ futuristic world where most humans have cyberbrains. The defendant on 
+ trial is an agent who coordinates with artists to create the data for 
+ cyberbrains to interact with people’s emotions. The victim is a girl 
+ artist named Lux.\n\nDate string from steam: "2018-02-02"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -37,9 +48,12 @@ DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 SUMMARY:Beat Saber
 UID:620980
-DESCRIPTION:https://store.steampowered.com/app/620980
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/620980\n\nBeat Saber is a VR
+  rhythm game where you slash the beats of adrenaline-pumping music as they
+  fly towards you\, surrounded by a futuristic world.\n\nDate string from 
+ steam: "2019-05-21"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -47,60 +61,30 @@ DTSTART;VALUE=DATE:20171101
 DTEND;VALUE=DATE:20171102
 SUMMARY:The Drone Racing League Simulator
 UID:641780
-DESCRIPTION:https://store.steampowered.com/app/641780
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/641780\n\nThe DRL Simulator 
+ is the premier FPV racing game and simulator. The DRL Sim offers a 
+ robust\, evolving feature set\, including high-intensity drone racing. It 
+ packs tracks that DRL's real world pilots compete on\, with more added 
+ every season. And\, it's the only place to fly DRL's exclusive drone\, the
+  Racer4!\r\n \r\nDRL Simulator is the best FPV racing action you'll find 
+ anywhere. Welcome\, pilots.\n\nDate string from steam: "2017-11-01"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20180815
-DTEND;VALUE=DATE:20180816
-SUMMARY:幻想三国志5 /Fantasia Sango 5
-UID:859150
-DESCRIPTION:https://store.steampowered.com/app/859150
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20180815
-DTEND;VALUE=DATE:20180816
-SUMMARY:幻想三國誌5 - 額外英傑召喚包/Fantasia Sango 5 - Extra Heroes Pack
-UID:899070
-DESCRIPTION:https://store.steampowered.com/app/899070
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20200218
-DTEND;VALUE=DATE:20200219
-SUMMARY:DCL - The Game
-UID:964570
-DESCRIPTION:https://store.steampowered.com/app/964570
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20220331
-DTEND;VALUE=DATE:20220401
-SUMMARY:明星志愿
-UID:1512720
-DESCRIPTION:https://store.steampowered.com/app/1512720
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250915
-DTEND;VALUE=DATE:20250916
-SUMMARY:兰岛物语2：奇沧的幻海
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:Lair Land Story 2: Mist of Sea
 UID:1749810
-DESCRIPTION:https://store.steampowered.com/app/1749810\nEstimation based on
-  "2025 年"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling 
+ far to the southern end of Lair Land\, seven knights have reached Chainch 
+ Bay. Settled in a small tropical fishing village surrounded by ruins\, 
+ they will spend the next few years building a new life here while facing 
+ the most challenging quest they will ever meet.\n\nDate string from steam:
+  "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -108,41 +92,54 @@ DTSTART;VALUE=DATE:20250205
 DTEND;VALUE=DATE:20250206
 SUMMARY:Rift of the NecroDancer
 UID:2073250
-DESCRIPTION:https://store.steampowered.com/app/2073250\nEstimation based on
-  "2025 年 2 月 5 日"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2073250\n\nThe NecroDancer's
+  back in an all-new rhythm game! Dragged into a strange new world\, 
+ Cadence must engage in musical combat with monsters surging through the 
+ Rift! Face pulse-pounding Rhythm Rifts where every beat is a battle\, all 
+ set to an original\, electric soundtrack by Danny Baranowsky & 
+ friends.\n\nDate string from steam: "2025-02-05"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230110
-DTEND;VALUE=DATE:20230111
-SUMMARY:三国立志传
-UID:2261090
-DESCRIPTION:https://store.steampowered.com/app/2261090
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20231122
-DTEND;VALUE=DATE:20231123
-SUMMARY:エッグウォーパズル
-UID:2470440
-DESCRIPTION:https://store.steampowered.com/app/2470440
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DTSTART;VALUE=DATE:20241216
+DTEND;VALUE=DATE:20241217
+SUMMARY:Neko Odyssey
+UID:2476350
+DESCRIPTION:https://store.steampowered.com/app/2476350\n\nNeko Odyssey: A 
+ Game for Cat Lovers You Can't Miss!\r\nHere’s a slightly unusual Casual 
+ Adventure game where the main gameplay centers around taking pictures of 
+ cats. The pixel art graphics in a 3D setting create a charming atmosphere 
+ reminiscent of Japanese animation.\n\nDate string from steam: "2024-12-16"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250331
 DTEND;VALUE=DATE:20250401
-SUMMARY:欠债与恋爱相连
+SUMMARY:Love\, in Debt!?
 UID:2533700
-DESCRIPTION:https://store.steampowered.com/app/2533700\nEstimation based on
-  "2025 年 3 月"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!? 
+ is a romance simulation game. You once had a beautiful relationship\, but 
+ overnight you were fired\, cheated on\, and even got yourself in a huge 
+ debt! In order to survive\, all you can do is work tirelessly! But why 
+ does it seem like you became a chick magnet after you're in debt?\n\nDate 
+ string from steam: "2025-03-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240425
+DTEND;VALUE=DATE:20240426
+SUMMARY:买个可乐饼吧！ - 原画设定集&特典包
+UID:2616280
+DESCRIPTION:https://store.steampowered.com/app/2616280\n\n本DLC主要包含游戏CG原画、角色
+ 设定集、角色立绘展示图、表情包，以及游戏内的神秘小功能。\n\nDate string from steam: "2024-04-25"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -150,30 +147,37 @@ DTSTART;VALUE=DATE:20241231
 DTEND;VALUE=DATE:20250101
 SUMMARY:无垢之恋 -绽放于春之花海-
 UID:2618660
-DESCRIPTION:https://store.steampowered.com/app/2618660\nEstimation based on
-  "2024 年"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2618660\n\n初梦GALGAME首部纯爱向视觉小
+ 说游戏。讲述了铃兰学园的新学期，少年与少女在桔梗花海中相遇，以虚假的恋爱关系作为开端，待到桔梗花再次绽放之时，两人的未来将归于何处？这是关于，春之魔
+ 法使的恋爱故事。\n\nDate string from steam: "2024-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240202
+DTEND;VALUE=DATE:20240203
+SUMMARY:Kevin(1997-2077)
+UID:2699290
+DESCRIPTION:https://store.steampowered.com/app/2699290\n\nKevin wants to 
+ show what his life would be and why.他用没人懂的语言写了一本书。\r\nA language-
+ deciphering game.\n\nDate string from steam: "2024-02-02"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240726
 DTEND;VALUE=DATE:20240727
-SUMMARY:爱上火车-Last Run!!- 铁路浪漫谭
+SUMMARY:Maitetsu:Last Run!! - Rail Romanesque origin
 UID:2702160
-DESCRIPTION:https://store.steampowered.com/app/2702160
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240223
-DTEND;VALUE=DATE:20240224
-SUMMARY:Windowkill
-UID:2726450
-DESCRIPTION:https://store.steampowered.com/app/2726450
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2702160\n\n《铁路浪漫谭》是本作是2020年发
+ 售的《爱上火车Last Run!!》的翻新版本。本作对《爱上火车Last 
+ Run!!》的游戏内容进行了重新调整与优化，并带来了超越原版的出色1920X1080的E-
+ Mote动态演出画质以及对于游戏手柄游玩的全面支持。现以原版《爱上火车Last Run!!》DLC的形式推出！\n\nDate string 
+ from steam: "2024-07-26"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -181,65 +185,100 @@ DTSTART;VALUE=DATE:20241210
 DTEND;VALUE=DATE:20241211
 SUMMARY:Mighty Morphin Power Rangers: Rita's Rewind
 UID:2816870
-DESCRIPTION:https://store.steampowered.com/app/2816870\nEstimation based on
-  "2024 年 12 月 10 日"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2816870\n\nIn Mighty Morphin
+  Power Rangers: Rita's Rewind\, the team faces off against a robotic 
+ reincarnation of the Power Rangers' long-time nemesis. Robo Rita has 
+ conjured a portal to send herself back in time so she can finally vanquish
+  the Power Rangers by forming an alliance with her younger self.\n\nDate 
+ string from steam: "2024-12-10"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250915
-DTEND;VALUE=DATE:20250916
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
 SUMMARY:Slay the Spire 2
 UID:2868840
-DESCRIPTION:https://store.steampowered.com/app/2868840\nEstimation based on
-  "2025 年"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2868840\n\nThe iconic 
+ roguelike deckbuilder returns. Craft a unique deck\, encounter bizarre 
+ creatures\, and discover relics of immense power in Slay the Spire 
+ 2!\n\nDate string from steam: "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250915
-DTEND;VALUE=DATE:20250916
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
 SUMMARY:Ratatan
 UID:2949320
-DESCRIPTION:https://store.steampowered.com/app/2949320\nEstimation based on
-  "2025 年"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/2949320\n\nRatatan is a 
+ rhythm roguelike action game that combines rhythm games and side-scrolling
+  action\, with online co-op gameplay supporting up to 4 players. An 
+ intense battle unfolds with over 100 characters fighting in a massive 
+ melee. Let's defeat the enemies together!\n\nDate string from steam: 
+ "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241130
-DTEND;VALUE=DATE:20241201
-SUMMARY:青天井
+DTSTART;VALUE=DATE:20250331
+DTEND;VALUE=DATE:20250401
+SUMMARY:Aotenjo
 UID:3066570
-DESCRIPTION:https://store.steampowered.com/app/3066570\nEstimation based on
-  "2024 年第四季度"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/3066570\n\nThe Mahjong 
+ Roguelike. Aotenjo is an deckbuilder where you will use Mahjong styles all
+  over the world to beat innate threats\, play different Patterns and 
+ combos\, reach the "bottom" of Aotenjo\, and discover ancient 
+ secrets....\n\nDate string from steam: "2025-03-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250305
-DTEND;VALUE=DATE:20250306
-SUMMARY:Venus Vacation PRISM - DEAD OR ALIVE Xtreme -
-UID:3155730
-DESCRIPTION:https://store.steampowered.com/app/3155730\nEstimation based on
-  "2025 年 3 月 5 日"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:HENPRI
+UID:3094010
+DESCRIPTION:https://store.steampowered.com/app/3094010\n\nThrown into 
+ prison for an act of self-expression\, protagonist Shuichiro must confront
+  both a violent system and his own actions—or else try to find happiness 
+ on the inside in this visual novel from the makers of NUKITASHI.\n\nDate 
+ string from steam: "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241130
-DTEND;VALUE=DATE:20241201
-SUMMARY:灵校园的奇妙日常
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:EDENS ZERO
+UID:3125750
+DESCRIPTION:https://store.steampowered.com/app/3125750\n\nThis is a 3D 
+ action role-playing game based on the space fantasy comic/anime EDENS ZERO
+  by Hiro Mashima\, creator of Fairy Tail and Rave Master.\r\nThe player 
+ controls a diverse cast of characters as they embark on an epic adventure 
+ across different planets while battling powerful enemies!\n\nDate string 
+ from steam: "2025-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241231
+DTEND;VALUE=DATE:20250101
+SUMMARY:Spirit School Days
 UID:3161340
-DESCRIPTION:https://store.steampowered.com/app/3161340\nEstimation based on
-  "2024 年第四季度"
-LAST-MODIFIED:20241126T041006Z
-DTSTAMP:20241126T041006Z
+DESCRIPTION:https://store.steampowered.com/app/3161340\n\n"Spirit School 
+ Days": Campus Romance Meets Supernatural Adventure\r\nStep into a 
+ mysterious campus and begin an extraordinary college life.\r\nPlay as a 
+ new freshman\, meet unique characters\, and together uncover supernatural 
+ mysteries. Every choice shapes your story\, creating unique memories of 
+ youth.\n\nDate string from steam: "2024-12-31"
+LAST-MODIFIED:20241208T112913Z
+DTSTAMP:20241208T112913Z
 CATEGORIES:game_release
 END:VEVENT
 END:VCALENDAR
