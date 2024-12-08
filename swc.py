@@ -1,7 +1,10 @@
 import argparse
 import json
+import os
 import re
 import time
+import urllib
+from collections import namedtuple
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -11,14 +14,20 @@ from ics import Calendar, Event
 from matplotlib import pyplot, ticker
 
 # fmt: off
-_UTC = timezone.utc
-_SEP = '-09-15'
+_GET_ITEMS_BATCH_SIZE = 200
 _LAST_DAY = '-12-31'
-_TOTAL = 'total'
+_NAME = 'name'
+_PRERELEASE = 'prerelease'
 _RELEASE_DATE = 'release_date'
 _RELEASE_STRING = 'release_string'
 _RELEASED = 'released'
-_PRERELEASE = 'prerelease'
+_SEP = '-09-15'
+_SHORT_DESCRIPTION = 'short_description'
+_TOTAL = 'total'
+_TYPE = 'type'
+# The GetItems API is more reliable. It should be preferred in most cases.
+_USE_GET_ITEMS_API = True
+_UTC = timezone.utc
 _YEAR_ONLY_REGEX = '^(\\d{4}) \\.$'
 
 _BLOCK_LIST = ('tbd', 'tba', 'to be announced', 'when it\'s done', 'when it\'s ready', '即将推出', '即将宣布', 'coming soon')
@@ -51,104 +60,225 @@ def last_day_of_next_month(dt):
     return datetime(year, next_next_month, 1) - timedelta(days=1)
 
 
+def get_wishlist_appids(steamid):
+    url = f'https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid={steamid}'
+
+    response = requests.get(url, timeout=30)
+
+    # In case of broken Steam API
+    if response.status_code == 200:
+        try:
+            response_data = response.json()
+        except requests.exceptions.JSONDecodeError:
+            exit()
+
+    wishlist_appids = []
+    if 'response' in response_data and 'items' in response_data['response']:
+        for item in response_data['response']['items']:
+            if 'appid' in item:
+                wishlist_appids.append(int(item['appid']))
+
+    return sorted(wishlist_appids)
+
+
+GameDetails = namedtuple('GameDetails', [_NAME, _TYPE, _RELEASE_STRING, _SHORT_DESCRIPTION, _PRERELEASE])
+
+
+def get_game_details(appid):
+    url = f'https://store.steampowered.com/api/appdetails?appids={appid}'
+    try:
+        response = requests.get(url, timeout=30)
+    except Exception as e:
+        print(f'Unexpected error: {e}')
+        return GameDetails(
+            name='',
+            type='',
+            release_string='',
+            short_description='',
+            prerelease=False
+        )
+
+    if response.status_code != 200:
+        return GameDetails(
+            name='',
+            type='',
+            release_string='',
+            short_description='',
+            prerelease=False
+        )
+
+    response_data = response.json()
+    app_data_wrapper = response_data.get(str(appid), {})
+    if not app_data_wrapper.get('success'):
+        return GameDetails(
+            name='',
+            type='',
+            release_string='',
+            short_description='',
+            prerelease=False
+        )
+
+    app_data = app_data_wrapper.get('data', {})
+    release_date = app_data.get(_RELEASE_DATE, {})
+    prerelease = release_date.get('coming_soon', False)
+    return GameDetails(
+        name=app_data.get(_NAME, ''),
+        type=app_data.get(_TYPE, ''),
+        release_string=release_date.get('date', ''),
+        short_description=app_data.get(_SHORT_DESCRIPTION, ''),
+        prerelease=prerelease
+    )
+
+
+def get_game_details_via_get_items_api(appids):
+    request_json = {
+        'ids': [{'appid': appid} for appid in appids],
+        'context': {
+            # TODO: maybe expose this to config
+            'language': 'english',
+            'country_code': 'US',
+            'steam_realm': 1
+        },
+        'data_request': {
+            'include_release': True,
+            'include_basic_info': True
+        }
+    }
+
+    encoded_json_string = urllib.parse.quote(json.dumps(request_json))
+
+    url = f'https://api.steampowered.com/IStoreBrowseService/GetItems/v1?input_json={encoded_json_string}'
+    try:
+        response = requests.get(url, timeout=30)
+    except Exception as e:
+        print(f'Unexpected error: {e}')
+        return {}
+
+    if response.status_code != 200:
+        return {}
+
+    response_data = response.json()
+    store_items = response_data.get('response', {}).get('store_items', [])
+    game_details_dict = {}
+
+    for item in store_items:
+        appid = item.get('appid')
+        if not appid:
+            continue
+
+        name = item.get(_NAME)
+        type_ = item.get(_TYPE)
+        release = item.get('release', {})
+        basic_info = item.get('basic_info', {})
+
+        # Extract relevant fields
+        steam_release_date = release.get('steam_release_date', 0)
+        short_description = basic_info.get(_SHORT_DESCRIPTION, '')
+        prerelease_ = release.get('is_coming_soon', False)
+        custom_release_date_message = release.get('custom_release_date_message', '')
+
+        # Create a GameDetails tuple
+        game_details = GameDetails(
+            name=name,
+            type=type_,
+            release_string=datetime.utcfromtimestamp(steam_release_date).strftime('%Y-%m-%d') if steam_release_date > 0 else custom_release_date_message,
+            short_description=short_description,
+            prerelease=prerelease_
+        )
+
+        # Add to dictionary
+        game_details_dict[appid] = game_details
+
+    return game_details_dict
+
+
+# Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--id', type=str, required=True)
-parser.add_argument('-p', '--max-page', type=int, default=20)
 parser.add_argument('-d', '--include-dlc', type=bool, default=False)
 args = parser.parse_args()
 
-if args.id.isnumeric():
-    url = f'https://store.steampowered.com/wishlist/profiles/{args.id}/wishlistdata/'
-else:
-    url = f'https://store.steampowered.com/wishlist/id/{args.id}/wishlistdata/'
-# l may also be 'english' or 'tchinese', but then _YEAR_ONLY_REGEX and _TO_REPLACE may need to be modified as well.
-# See https://partner.steamgames.com/doc/store/localization
-params = {'l': 'schinese'}
+if not args.id.isnumeric():
+    print('Steam ID should be numeric.')
+    exit()
+
 now = datetime.now(_UTC)
 
 # Initialize empty containers and counters
 wishlist_data = {}
-count = 0
 prerelease_count = 0
 successful_deductions = []
-failed_deductions = []
 
-# Fetch and store wishlist data
-for index in range(0, args.max_page):
-    params['p'] = index
-    response = requests.get(url, params=params, timeout=10)
+wishlist_appids = get_wishlist_appids(args.id)
 
-    # Steam API broken
-    try:
-        response_data = response.json()
-    except requests.exceptions.JSONDecodeError:
-        exit()
+if _USE_GET_ITEMS_API:
+    # Process the appids in batches, as the GetItems API will return error for request that is too large
+    wishlist_appid_batches = [wishlist_appids[i:i + _GET_ITEMS_BATCH_SIZE] for i in range(0, len(wishlist_appids), _GET_ITEMS_BATCH_SIZE)]
+    for batch in wishlist_appid_batches:
+        wishlist_data.update(get_game_details_via_get_items_api(batch))
+        time.sleep(3)
+else:
+    for appid in wishlist_appids:
+        # Try 20 times, as there can be transient errors with this API
+        for retry in range(20):
+            game_details = get_game_details(appid)
+            if game_details.name:
+                break
+            time.sleep(5)
+        else:
+            print(f'Bad appid:{appid}')
+            continue
+        wishlist_data.update({appid: game_details})
+        time.sleep(0.5)
 
-    response_data = response.json()
-    if not response_data:
-        # No more remaining items.
-        break
-    if 'success' in response_data.keys():
-        # User profile is private.
-        exit()
-
-    # Convert key (appId) to int, and store the key-value pairs
-    wishlist_data.update({int(key): value for key, value in response_data.items()})
-
-    time.sleep(3)
-
-# Process the wishlist data stored in the key's ascending order
+# Process the wishlist data
 cal = Calendar(creator='SteamWishlistCalendar')
-for key, value in sorted(wishlist_data.items()):
-    count += 1
-    game_name = value['name']
+for key, value in wishlist_data.items():
+    game_name = value.name
     description_suffix = ''
 
-    if value[_RELEASE_DATE]:
-        release_date = datetime.fromtimestamp(float(value[_RELEASE_DATE]), tz=_UTC)
-
-    if _PRERELEASE in value:
+    if value.prerelease:
         prerelease_count += 1
-        # Games that are not released yet will have a 'free-form' release string.
-        release_string = value[_RELEASE_STRING].lower()
-        if any(substring in release_string for substring in _BLOCK_LIST):
-            # Release date not announced.
-            continue
 
-        # Heuristically maps vague words such as 'Q1', 'summer' to months.
-        for old, new in _TO_REPLACE:
-            release_string = release_string.replace(old, new)
+    release_string = value.release_string.lower()
+    if any(substring in release_string for substring in _BLOCK_LIST):
+        # Release date not announced.
+        continue
 
-        release_string = release_string.strip()
-        year_only_match = re.match(_YEAR_ONLY_REGEX, release_string)
-        if year_only_match:
-            # Release string only contains information about the year.
-            year = year_only_match.group(1)
-            # If XXXX.09.15 has already passed, use the last day of that year.
-            sep_release_date = datetime.strptime(f'{year}{_SEP}', '%Y-%m-%d').replace(tzinfo=_UTC)
-            release_string = f'{year}{_SEP}' if sep_release_date > now else f'{year}{_LAST_DAY}'
+    # Heuristically maps vague words such as 'Q1', 'summer' to months.
+    for old, new in _TO_REPLACE:
+        release_string = release_string.replace(old, new)
 
-        # Try to parse a machine-readable date from the release string.
-        translated_date = dateparser.parse(release_string,
-                                           settings={
-                                               'PREFER_DAY_OF_MONTH': 'last',
-                                               'PREFER_DATES_FROM': 'future'})
-        if translated_date:
-            release_date = translated_date
-            while release_date.date() < now.date():
-                # A game is pre-release but the estimated release date has already passed. In this case, pick the earliest last-of-a-month date in the future.
-                # Note the difference between this case and the case where only a year is provided, which has been addressed above.
-                release_date = last_day_of_next_month(release_date)
-            description_suffix = f'\nEstimation based on "{value[_RELEASE_STRING]}"'
-        else:
-            failed_deductions.append(f'{game_name}\t\t{value[_RELEASE_STRING]}')
-            continue
+    release_string = release_string.strip()
+    year_only_match = re.match(_YEAR_ONLY_REGEX, release_string)
+    if year_only_match:
+        # Release string only contains information about the year.
+        year = year_only_match.group(1)
+        # If XXXX.09.15 has already passed, use the last day of that year.
+        sep_release_date = datetime.strptime(f'{year}{_SEP}', '%Y-%m-%d').replace(tzinfo=_UTC)
+        release_string = f'{year}{_SEP}' if sep_release_date > now else f'{year}{_LAST_DAY}'
+
+    # Try to parse a machine-readable date from the release string.
+    translated_date = dateparser.parse(release_string,
+                                       settings={
+                                           'PREFER_DAY_OF_MONTH': 'last',
+                                           'PREFER_DATES_FROM': 'future'})
+    if translated_date:
+        release_date = translated_date
+        while value.prerelease and release_date.date() < now.date():
+            # A game is pre-release but the estimated release date has already passed. In this case, pick the earliest last-of-a-month date in the future.
+            # Note the difference between this case and the case where only a year is provided, which has been addressed above.
+            release_date = last_day_of_next_month(release_date)
+        description_suffix = f'\n\n{value.short_description}\n\nDate string from steam: "{value.release_string}"'
+    else:
+        print(f'Failed deduction: {key}\t\t{game_name}\t\t{value.release_string}')
+        continue
 
     if not release_date:
         continue
 
     successful_deductions.append(f'{game_name}\t\t{release_date.date()}')
-    if value['type'] == 'DLC' and not args.include_dlc:
+    if value.type == 'dlc' and not args.include_dlc:
         continue
 
     event = Event(uid=str(key), summary=game_name,
@@ -162,7 +292,6 @@ for key, value in sorted(wishlist_data.items()):
 # File outputs
 _OUTPUT_FOLDER = 'output'
 _SUCCESS_FILE = 'successful.txt'
-_FAILURE_FILE = 'failed_deductions.txt'
 _ICS_FILE = 'wishlist.ics'
 _HISTORY_FILE = 'history.json'
 _HISTORY_CHART_FILE = 'wishlist_history_chart.png'
@@ -185,12 +314,6 @@ success_file = output_folder.joinpath(_SUCCESS_FILE)
 with success_file.open('w', encoding='utf-8') as f:
     f.write('\n'.join(successful_deductions))
 
-# Write failed deductions
-if failed_deductions:
-    failure_file = output_folder.joinpath(_FAILURE_FILE)
-    with failure_file.open('w', encoding='utf-8') as f:
-        f.write('\n'.join(failed_deductions))
-
 # Write the calendar
 ics_file = output_folder.joinpath(_ICS_FILE)
 with ics_file.open('w', encoding='utf-8') as f:
@@ -202,7 +325,7 @@ data = {}
 if history_file.is_file():
     with history_file.open() as f:
         data = json.load(f)
-data[datetime.today().strftime('%Y-%m-%d')] = {_PRERELEASE: prerelease_count, _TOTAL: count}
+data[datetime.today().strftime('%Y-%m-%d')] = {_PRERELEASE: prerelease_count, _TOTAL: len(wishlist_appids)}
 with history_file.open('w') as f:
     json.dump(data, f)
 
