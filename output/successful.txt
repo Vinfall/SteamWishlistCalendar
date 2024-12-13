@@ -4,6 +4,7 @@ Project LUX		2018-02-02
 Beat Saber		2019-05-21
 The Drone Racing League Simulator		2017-11-01
 Lair Land Story 2: Mist of Sea		2025-12-31
+Blade&Sword		2022-02-24
 Rift of the NecroDancer		2025-02-05
 Neko Odyssey		2024-12-16
 Love, in Debt!?		2025-03-31
@@ -11,7 +12,6 @@ Love, in Debt!?		2025-03-31
 无垢之恋 -绽放于春之花海-		2024-12-31
 Kevin(1997-2077)		2024-02-02
 Maitetsu:Last Run!! - Rail Romanesque origin		2024-07-26
-Mighty Morphin Power Rangers: Rita's Rewind		2024-12-10
 Slay the Spire 2		2025-12-31
 Ratatan		2025-12-31
 Aotenjo		2025-03-31
