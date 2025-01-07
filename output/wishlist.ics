@@ -10,8 +10,8 @@ DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -25,8 +25,8 @@ DESCRIPTION:https://store.steampowered.com/app/574140\n\nThe crime... is
  trial is an agent who coordinates with artists to create the data for 
  cyberbrains to interact with people’s emotions. The victim is a girl 
  artist named Lux.\n\nDate string from steam: "2018-02-02"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -38,8 +38,8 @@ DESCRIPTION:https://store.steampowered.com/app/620980\n\nBeat Saber is a VR
   rhythm game where you slash the beats of adrenaline-pumping music as they
   fly towards you\, surrounded by a futuristic world.\n\nDate string from 
  steam: "2019-05-21"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -54,8 +54,8 @@ DESCRIPTION:https://store.steampowered.com/app/641780\n\nThe DRL Simulator
  every season. And\, it's the only place to fly DRL's exclusive drone\, the
   Racer4!\r\n \r\nDRL Simulator is the best FPV racing action you'll find 
  anywhere. Welcome\, pilots.\n\nDate string from steam: "2017-11-01"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -69,8 +69,8 @@ DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling
  they will spend the next few years building a new life here while facing 
  the most challenging quest they will ever meet.\n\nDate string from steam:
   "2025-12-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -82,30 +82,15 @@ DESCRIPTION:https://store.steampowered.com/app/2073250\n\nThe NecroDancer's
   back in an all-new rhythm game! Dragged into a strange new world\, 
  Cadence must engage in musical combat with monsters surging through the 
  Rift! Face pulse-pounding Rhythm Rifts where every beat is a battle\, all 
- set to an original\, electric soundtrack by Danny Baranowsky & 
- friends.\n\nDate string from steam: "2025-02-05"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+ set to an original soundtrack by Danny Baranowsky & friends.\n\nDate 
+ string from steam: "2025-02-05"
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250109
-DTEND;VALUE=DATE:20250110
-SUMMARY:Reviver
-UID:2239130
-DESCRIPTION:https://store.steampowered.com/app/2239130\n\nA narrative 
- puzzle game with themes of love\, fate and time. Follow the life stories 
- of the two main characters and influence their destinies through 
- interactions and choices. The game combines hand-drawn style and an 
- immersive interactive experience to explore a profound journey of love and
-  choice.\n\nDate string from steam: "2025-01-09"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250331
-DTEND;VALUE=DATE:20250401
+DTSTART;VALUE=DATE:20250930
+DTEND;VALUE=DATE:20251001
 SUMMARY:Love\, in Debt!?
 UID:2533700
 DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!? 
@@ -113,22 +98,9 @@ DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!?
  overnight you were fired\, cheated on\, and even got yourself in a huge 
  debt! In order to survive\, all you can do is work tirelessly! But why 
  does it seem like you became a chick magnet after you're in debt?\n\nDate 
- string from steam: "2025-03-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250107
-DTEND;VALUE=DATE:20250108
-SUMMARY:夏末白夜
-UID:2538910
-DESCRIPTION:https://store.steampowered.com/app/2538910\n\n白月高中的知名论坛【白月公园】上，
- 一则怪谈帖子仅仅只花了几天时间，就火遍了整个校园。\r\n\r\n明明是一眼假的帖子，却依旧成为了学生们茶余饭后的消遣，甚至被许多学生信以为真。不信
- 鬼神的“现实派”高中生周腾，自然没有把帖子所描述的故事放在眼里。\r\n\r\n直到离奇的事情一件一件地发生在了自己的身边……\n\nDate 
- string from steam: "2025-01-07"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+ string from steam: "2025-09-30"
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -140,8 +112,8 @@ DESCRIPTION:https://store.steampowered.com/app/2868840\n\nThe iconic
  roguelike deckbuilder returns. Craft a unique deck\, encounter bizarre 
  creatures\, and discover relics of immense power in Slay the Spire 
  2!\n\nDate string from steam: "2025-12-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -155,22 +127,22 @@ DESCRIPTION:https://store.steampowered.com/app/2949320\n\nRatatan is a
  intense battle unfolds with over 100 characters fighting in a massive 
  melee. Let's defeat the enemies together!\n\nDate string from steam: 
  "2025-12-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250331
-DTEND;VALUE=DATE:20250401
-SUMMARY:Aotenjo
+DTSTART;VALUE=DATE:20250120
+DTEND;VALUE=DATE:20250121
+SUMMARY:Aotenjo: Infinite Hands
 UID:3066570
 DESCRIPTION:https://store.steampowered.com/app/3066570\n\nThe Mahjong 
- Roguelike. Aotenjo is an deckbuilder where you will use Mahjong styles all
-  over the world to beat innate threats\, play different Patterns and 
- combos\, reach the "bottom" of Aotenjo\, and discover ancient 
- secrets....\n\nDate string from steam: "2025-03-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+ Roguelike. Aotenjo: Infinite Hands is an deckbuilder where you will use 
+ Mahjong styles all over the world to beat innate threats\, play different 
+ Patterns and combos\, reach the "bottom" of Aotenjo\, and discover ancient
+  secrets....\n\nDate string from steam: "2025-01-20"
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -183,8 +155,8 @@ DESCRIPTION:https://store.steampowered.com/app/3094010\n\nThrown into
   both a violent system and his own actions—or else try to find happiness 
  on the inside in this visual novel from the makers of NUKITASHI.\n\nDate 
  string from steam: "2025-12-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -198,8 +170,8 @@ DESCRIPTION:https://store.steampowered.com/app/3125750\n\nThis is a 3D
  controls a diverse cast of characters as they embark on an epic adventure 
  across different planets while battling powerful enemies!\n\nDate string 
  from steam: "2025-12-31"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -213,8 +185,8 @@ DESCRIPTION:https://store.steampowered.com/app/3313410\n\n"Countermark
  land and caught in its conflicts. Alongside a princess\, they embark on a 
  dangerous journey filled with intrigue and hidden secrets.\n\nDate string 
  from steam: "2024-12-20"
-LAST-MODIFIED:20250106T075451Z
-DTSTAMP:20250106T075451Z
+LAST-MODIFIED:20250119T042353Z
+DTSTAMP:20250119T042353Z
 CATEGORIES:game_release
 END:VEVENT
 END:VCALENDAR
