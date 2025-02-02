@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: setup Python with uv
         id: setup-uv
@@ -39,9 +37,7 @@ jobs:
         run: uv pip install -r requirements.txt
 
       - name: execute py script
-        env:
-          uid: ${{ secrets.STEAMUID }}
-        run: python -m swc -i=uid -d=True
+        run: python -m swc -i=${{ secrets.STEAMUID }} -d=True
 
       - name: check changes
         id: check_changes

@@ -41,6 +41,4 @@ jobs:
         run: uv pip install -r requirements.txt
 
       - name: execute py script
-        env:
-          uid: ${{ secrets.STEAMUID }}
-        run: python -m swc -i=uid -d=True
+        run: python -m swc -i=${{ secrets.STEAMUID }} -d=True
