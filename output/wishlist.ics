@@ -10,8 +10,8 @@ DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -25,8 +25,8 @@ DESCRIPTION:https://store.steampowered.com/app/574140\n\nThe crime... is
  trial is an agent who coordinates with artists to create the data for 
  cyberbrains to interact with people’s emotions. The victim is a girl 
  artist named Lux.\n\nDate string from steam: "2018-02-02"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -38,8 +38,8 @@ DESCRIPTION:https://store.steampowered.com/app/620980\n\nBeat Saber is a VR
   rhythm game where you slash the beats of adrenaline-pumping music as they
   fly towards you\, surrounded by a futuristic world.\n\nDate string from 
  steam: "2019-05-21"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -54,8 +54,20 @@ DESCRIPTION:https://store.steampowered.com/app/641780\n\nThe DRL Simulator
  every season. And\, it's the only place to fly DRL's exclusive drone\, the
   Racer4!\r\n \r\nDRL Simulator is the best FPV racing action you'll find 
  anywhere. Welcome\, pilots.\n\nDate string from steam: "2017-11-01"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200807
+DTEND;VALUE=DATE:20200808
+SUMMARY:The Henry Stickmin Collection
+UID:1089980
+DESCRIPTION:https://store.steampowered.com/app/1089980\n\nA choose-your-
+ own-path where failing is more fun than succeeding.\n\nDate string from 
+ steam: "2020-08-07"
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -69,8 +81,22 @@ DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling
  they will spend the next few years building a new life here while facing 
  the most challenging quest they will ever meet.\n\nDate string from steam:
   "2025-12-31"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250630
+DTEND;VALUE=DATE:20250701
+SUMMARY:Uberich: Advent Sinners
+UID:2323200
+DESCRIPTION:https://store.steampowered.com/app/2323200\n\nThe world and 
+ reality of Joe collapse as a sequence of paranormal events starts in 
+ September. A mysterious girl with physical powers named Chava wants him 
+ dead\, as he can be a core key for her cult to dominate the reality 
+ between worlds.\n\nDate string from steam: "2025-06-30"
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -84,21 +110,8 @@ DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!?
  debt! In order to survive\, all you can do is work tirelessly! But why 
  does it seem like you became a chick magnet after you're in debt?\n\nDate 
  string from steam: "2025-09-30"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240301
-DTEND;VALUE=DATE:20240302
-SUMMARY:Cricket Through the Ages
-UID:2657480
-DESCRIPTION:https://store.steampowered.com/app/2657480\n\nSwing bats and 
- throw balls through the intertwined histories of humankind and cricket in 
- this one button\, physics-driven game.\n\nDate string from steam: 
- "2024-03-01"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -110,8 +123,8 @@ DESCRIPTION:https://store.steampowered.com/app/2868840\n\nThe iconic
  roguelike deckbuilder returns. Craft a unique deck\, encounter bizarre 
  creatures\, and discover relics of immense power in Slay the Spire 
  2!\n\nDate string from steam: "2025-12-31"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -125,8 +138,35 @@ DESCRIPTION:https://store.steampowered.com/app/2949320\n\nRatatan is a
  intense battle unfolds with over 100 characters fighting in a massive 
  melee. Let's defeat the enemies together!\n\nDate string from steam: 
  "2025-12-31"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240614
+DTEND;VALUE=DATE:20240615
+SUMMARY:Leap Year
+UID:2951770
+DESCRIPTION:https://store.steampowered.com/app/2951770\n\nLeap Year is a 
+ clumsy platformer about knowledge and discovery. Explore a compact\, hand 
+ drawn world filled with hidden paths. Understand the game’s secrets to 
+ reach new areas and collect all the pages of your calendar.\n\nDate string
+  from steam: "2024-06-14"
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250328
+DTEND;VALUE=DATE:20250329
+SUMMARY:學生騎士團
+UID:2985170
+DESCRIPTION:https://store.steampowered.com/app/2985170\n\n角色扮演戀愛養成加入了大量戰鬥元素
+ 形成全新的風格。皇家騎士學院的新生臨危受命，一邊學習一邊拯救帝國，近100條分支可發展出52種結局。\r\n十大魔元素、500種魔法帶你進入神秘的魔
+ 法世界。數十個壯麗場景，各種地形與建物都具備了不同的屬性，必須掌握地形優勢才能獲得勝利。數十位學員各有不同的特色，如何搭配裝備及在那一關出場，同樣在
+ 考驗玩家的智慧！\n\nDate string from steam: "2025-03-28"
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -139,8 +179,8 @@ DESCRIPTION:https://store.steampowered.com/app/3081320\n\nThe Fuga:
  dramatic RPG featuring a brand-new\, strategic battle system\, enhanced 
  Taranis training during intermission\, and tactical route progression and 
  event battles!\n\nDate string from steam: "2025-05-29"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -153,8 +193,8 @@ DESCRIPTION:https://store.steampowered.com/app/3094010\n\nThrown into
   both a violent system and his own actions—or else try to find happiness 
  on the inside in this visual novel from the makers of NUKITASHI.\n\nDate 
  string from steam: "2025-03-04"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -168,8 +208,22 @@ DESCRIPTION:https://store.steampowered.com/app/3125750\n\nThis is a 3D
  controls a diverse cast of characters as they embark on an epic adventure 
  across different planets while battling powerful enemies!\n\nDate string 
  from steam: "2025-12-31"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250301
+SUMMARY:Super Multitasking GO!
+UID:3151600
+DESCRIPTION:https://store.steampowered.com/app/3151600\n\nYes\, YOU can 
+ play up to 4 continuously-shuffling minigames at the same time\, using 
+ just a split screen and a single controller or keyboard!  Super 
+ Multitasking GO! offers the tools and the training...but YOU unlock your 
+ hidden potential!\n\nDate string from steam: "2025-02-28"
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -183,33 +237,8 @@ DESCRIPTION:https://store.steampowered.com/app/3313410\n\n"Countermark
  land and caught in its conflicts. Alongside a princess\, they embark on a 
  dangerous journey filled with intrigue and hidden secrets.\n\nDate string 
  from steam: "2024-12-20"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250206
-DTEND;VALUE=DATE:20250207
-SUMMARY:PETS
-UID:3362790
-DESCRIPTION:https://store.steampowered.com/app/3362790\n\nPETS is a 
- platformer puzzle game. You will cross different dimensions and go through
-  the maze\, find your dogge.\n\nDate string from steam: "2025-02-06"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250630
-DTEND;VALUE=DATE:20250701
-SUMMARY:ComicKingdom
-UID:3423550
-DESCRIPTION:https://store.steampowered.com/app/3423550\n\nComic Kingdom is 
- a text-based adventure game primarily featuring a black-and-white comic 
- style. It tells the story of a group of young manga artists who are 
- trapped in a suburban farm.\n\nDate string from steam: "2025-06-30"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -220,8 +249,8 @@ UID:3432310
 DESCRIPTION:https://store.steampowered.com/app/3432310\n\nSlide to Solve is
   a minimalistic & relaxing puzzle game\n\nDate string from steam: 
  "2025-01-28"
-LAST-MODIFIED:20250210T042735Z
-DTSTAMP:20250210T042735Z
+LAST-MODIFIED:20250225T042622Z
+DTSTAMP:20250225T042622Z
 CATEGORIES:game_release
 END:VEVENT
 END:VCALENDAR
