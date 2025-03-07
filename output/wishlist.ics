@@ -10,8 +10,8 @@ DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -25,8 +25,8 @@ DESCRIPTION:https://store.steampowered.com/app/574140\n\nThe crime... is
  trial is an agent who coordinates with artists to create the data for 
  cyberbrains to interact with people’s emotions. The victim is a girl 
  artist named Lux.\n\nDate string from steam: "2018-02-02"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -38,8 +38,8 @@ DESCRIPTION:https://store.steampowered.com/app/620980\n\nBeat Saber is a VR
   rhythm game where you slash the beats of adrenaline-pumping music as they
   fly towards you\, surrounded by a futuristic world.\n\nDate string from 
  steam: "2019-05-21"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -54,20 +54,8 @@ DESCRIPTION:https://store.steampowered.com/app/641780\n\nThe DRL Simulator
  every season. And\, it's the only place to fly DRL's exclusive drone\, the
   Racer4!\r\n \r\nDRL Simulator is the best FPV racing action you'll find 
  anywhere. Welcome\, pilots.\n\nDate string from steam: "2017-11-01"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
-CATEGORIES:game_release
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20200807
-DTEND;VALUE=DATE:20200808
-SUMMARY:The Henry Stickmin Collection
-UID:1089980
-DESCRIPTION:https://store.steampowered.com/app/1089980\n\nA choose-your-
- own-path where failing is more fun than succeeding.\n\nDate string from 
- steam: "2020-08-07"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -81,8 +69,8 @@ DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling
  they will spend the next few years building a new life here while facing 
  the most challenging quest they will ever meet.\n\nDate string from steam:
   "2025-12-31"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -95,8 +83,23 @@ DESCRIPTION:https://store.steampowered.com/app/2323200\n\nThe world and
  September. A mysterious girl with physical powers named Chava wants him 
  dead\, as he can be a core key for her cult to dominate the reality 
  between worlds.\n\nDate string from steam: "2025-06-30"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250324
+DTEND;VALUE=DATE:20250325
+SUMMARY:Dark Deity 2
+UID:2446600
+DESCRIPTION:https://store.steampowered.com/app/2446600\n\nVerroa is a 
+ peaceful continent on the brink of war as the Asverellian Empire seeks to 
+ expand - at your homeland’s expense. Command unlikely heroes\, fight 
+ challenging turn-based battles\, and watch hardship forge iron into steel.
+  Dark Deity is back\, bigger and better than before!\n\nDate string from 
+ steam: "2025-03-24"
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -110,8 +113,8 @@ DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!?
  debt! In order to survive\, all you can do is work tirelessly! But why 
  does it seem like you became a chick magnet after you're in debt?\n\nDate 
  string from steam: "2025-09-30"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -123,8 +126,8 @@ DESCRIPTION:https://store.steampowered.com/app/2868840\n\nThe iconic
  roguelike deckbuilder returns. Craft a unique deck\, encounter bizarre 
  creatures\, and discover relics of immense power in Slay the Spire 
  2!\n\nDate string from steam: "2025-12-31"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -138,8 +141,8 @@ DESCRIPTION:https://store.steampowered.com/app/2949320\n\nRatatan is a
  intense battle unfolds with over 100 characters fighting in a massive 
  melee. Let's defeat the enemies together!\n\nDate string from steam: 
  "2025-12-31"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -151,8 +154,8 @@ DESCRIPTION:https://store.steampowered.com/app/2985170\n\n角色扮演戀愛養�
  形成全新的風格。皇家騎士學院的新生臨危受命，一邊學習一邊拯救帝國，近100條分支可發展出52種結局。\r\n十大魔元素、500種魔法帶你進入神秘的魔
  法世界。數十個壯麗場景，各種地形與建物都具備了不同的屬性，必須掌握地形優勢才能獲得勝利。數十位學員各有不同的特色，如何搭配裝備及在那一關出場，同樣在
  考驗玩家的智慧！\n\nDate string from steam: "2025-03-28"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -165,8 +168,8 @@ DESCRIPTION:https://store.steampowered.com/app/3081320\n\nThe Fuga:
  dramatic RPG featuring a brand-new\, strategic battle system\, enhanced 
  Taranis training during intermission\, and tactical route progression and 
  event battles!\n\nDate string from steam: "2025-05-29"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -180,8 +183,21 @@ DESCRIPTION:https://store.steampowered.com/app/3125750\n\nThis is a 3D
  controls a diverse cast of characters as they embark on an epic adventure 
  across different planets while battling powerful enemies!\n\nDate string 
  from steam: "2025-12-31"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250223
+DTEND;VALUE=DATE:20250224
+SUMMARY:One Minute
+UID:3301260
+DESCRIPTION:https://store.steampowered.com/app/3301260\n\nDive into a 
+ frenetic chaos with One Minute\, a fast and addictive roguelite! Unlock 
+ varied mini-games\, collect cursor skins\, and improve your scores to 
+ shine in the global leaderboard.\n\nDate string from steam: "2025-02-23"
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -195,8 +211,22 @@ DESCRIPTION:https://store.steampowered.com/app/3313410\n\n"Countermark
  land and caught in its conflicts. Alongside a princess\, they embark on a 
  dangerous journey filled with intrigue and hidden secrets.\n\nDate string 
  from steam: "2024-12-20"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
+CATEGORIES:game_release
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250306
+DTEND;VALUE=DATE:20250307
+SUMMARY:我的人生
+UID:3393750
+DESCRIPTION:https://store.steampowered.com/app/3393750\n\nA casual game 
+ that blends card-based Roguelike elements with life simulation gameplay\, 
+ similar to "Luck be a Landlord." Build your unique life from over 100 
+ event types and a library of more than 250 cards!\n\nDate string from 
+ steam: "2025-03-06"
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -209,8 +239,8 @@ DESCRIPTION:https://store.steampowered.com/app/3510730\n\nThis is a game
  3D environments \,"It" made everything disappear\, yet the rain that night
   never ceased. And so\, I embarked on a journey to find the answers. Why 
  did I become myself?\n\nDate string from steam: "2025-07-31"
-LAST-MODIFIED:20250304T042642Z
-DTSTAMP:20250304T042642Z
+LAST-MODIFIED:20250307T042649Z
+DTSTAMP:20250307T042649Z
 CATEGORIES:game_release
 END:VEVENT
 END:VCALENDAR
