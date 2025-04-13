@@ -4,7 +4,6 @@ The Drone Racing League Simulator		2017-11-01
 Lair Land Story 2: Mist of Sea		2025-12-31
 Uberich: Advent Sinners		2025-06-30
 Gensokyo：Presumption of Guilt~Pansies Before Dawn		2025-12-31
-SNOW BROS. 2 SPECIAL		2025-04-09
 Love, in Debt!?		2025-09-30
 Slay the Spire 2		2025-12-31
 Ratatan		2025-12-31
@@ -13,6 +12,6 @@ Fuga: Melodies of Steel 3		2025-05-29
 Word Game World		2025-12-31
 EDENS ZERO		2025-07-15
 Ghostwriter Workshop		2025-12-31
-ComicKingdom		2025-04-11
+ComicKingdom		2025-04-10
 GeoGuessr Steam Edition		2025-04-30
 Loop: Paradox of Rings		2025-07-31
