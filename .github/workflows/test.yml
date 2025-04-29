@@ -26,10 +26,10 @@ jobs:
 
       - name: setup Python with uv
         id: setup-uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v6
         with:
-          version: latest
           python-version: ${{ matrix.python-version }}
+          activate-environment: true
           enable-cache: true
           prune-cache: false # do not remove pre-built wheels
           ignore-nothing-to-cache: true
