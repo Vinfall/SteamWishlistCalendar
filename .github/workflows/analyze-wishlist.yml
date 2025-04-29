@@ -25,12 +25,12 @@ jobs:
         id: setup-uv
         uses: astral-sh/setup-uv@v5
         with:
-            version: latest
-            python-version: ${{ matrix.python-version }}
-            enable-cache: true
-            prune-cache: false # do not remove pre-built wheels
-            ignore-nothing-to-cache: true
-            cache-dependency-glob: "**/requirements.txt"
+          version: latest
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+          prune-cache: false # do not remove pre-built wheels
+          ignore-nothing-to-cache: true
+          cache-dependency-glob: "**/requirements.txt"
 
       - name: hint on cache hit
         if: steps.setup-uv.outputs.cache-hit == 'true'
