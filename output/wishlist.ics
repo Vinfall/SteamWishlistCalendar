@@ -10,8 +10,8 @@ DESCRIPTION:https://store.steampowered.com/app/207350\n\nThe perfect mix of
   action\, exploration and story with screen-filling bosses\, unique 
  platforming elements\, and innovative puzzles.\n\nDate string from steam: 
  "2012-05-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -25,8 +25,8 @@ DESCRIPTION:https://store.steampowered.com/app/223810\n\nLong\, long ago\,
  Esteria\, and its divine history was largely forgotten by all but the 
  descendants of those who once preached the Goddesses’ will.\n\nDate string
   from steam: "2013-02-14"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -38,8 +38,8 @@ DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -53,8 +53,8 @@ DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling
  they will spend the next few years building a new life here while facing 
  the most challenging quest they will ever meet.\n\nDate string from steam:
   "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -68,8 +68,8 @@ DESCRIPTION:https://store.steampowered.com/app/1794880\n\nFinally\, the
  battles once thought impossible\, with support from beloved characters 
  across Falcom's classic titles to aid you in the fight!\n\nDate string 
  from steam: "2025-10-10"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -79,8 +79,8 @@ SUMMARY:Gensokyo：Presumption of Guilt~Pansies Before Dawn
 UID:2325310
 DESCRIPTION:https://store.steampowered.com/app/2325310\n\n\n\nDate string 
  from steam: "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -94,13 +94,13 @@ DESCRIPTION:https://store.steampowered.com/app/2343610\n\nWord game is
   words to rewrite facts. “I” must be wise and brave enough complete the 
  mission of words.\r\n\r\nMay the best "I” win!\n\nDate string from steam: 
  "2025-08-13"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DTEND;VALUE=DATE:20260101
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
 SUMMARY:Love\, in Debt!?
 UID:2533700
 DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!? 
@@ -108,21 +108,21 @@ DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!?
  overnight you were fired\, cheated on\, and even got yourself in a huge 
  debt! In order to survive\, all you can do is work tirelessly! But why 
  does it seem like you became a chick magnet after you're in debt?\n\nDate 
- string from steam: "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+ string from steam: "2026-03-31"
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DTEND;VALUE=DATE:20260101
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
 SUMMARY:PANIK
 UID:2749610
 DESCRIPTION:https://store.steampowered.com/app/2749610\n\nPANIK is a puzzle
   game where you have to guide different characters to the goal. But 
- remember: Don’t panic!\n\nDate string from steam: "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+ remember: Don’t panic!\n\nDate string from steam: "2025-09-29"
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -134,8 +134,8 @@ DESCRIPTION:https://store.steampowered.com/app/2868840\n\nThe iconic
  roguelike deckbuilder returns. Craft a unique deck\, encounter bizarre 
  creatures\, and discover relics of immense power in Slay the Spire 
  2!\n\nDate string from steam: "2026-03-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -147,8 +147,8 @@ DESCRIPTION:https://store.steampowered.com/app/2985170\n\n角色扮演戀愛養�
  形成全新的風格。皇家騎士學院的新生臨危受命，一邊學習一邊拯救帝國，近100條分支可發展出52種結局。\r\n十大魔元素、500種魔法帶你進入神秘的魔
  法世界。數十個壯麗場景，各種地形與建物都具備了不同的屬性，必須掌握地形優勢才能獲得勝利。數十位學員各有不同的特色，如何搭配裝備及在那一關出場，同樣在
  考驗玩家的智慧！\n\nDate string from steam: "2025-03-28"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -159,8 +159,8 @@ UID:3114370
 DESCRIPTION:https://store.steampowered.com/app/3114370\n\n「探索」世界，「創造」世界，只要你
  會中文，就能主宰這個世界。在《文字遊戲》的經典機制上，帶來全新的探索與創造體驗。你可以遊玩主線故事、挑戰跨界聯名內容，還能動手自製關卡，一起「敲」出
  專屬於你的文字世界吧！\n\nDate string from steam: "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -174,8 +174,8 @@ DESCRIPTION:https://store.steampowered.com/app/3353620\n\nA text adventure
  13th year of Jianzhong by the 'bound barbarians'. Witness the growth and 
  helplessness of characters and the rise and fall of the era.\n\nDate 
  string from steam: "2025-09-10"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -186,8 +186,8 @@ UID:3389860
 DESCRIPTION:https://store.steampowered.com/app/3389860\n\n轻松愉快的短篇恋爱AVG！男主角阿
  逅是个烘焙师傅，他刚经历事业爱情的双重打击一蹶不振。就在此时，一位爱吃泡芙的女孩出现在他的面前，这段吃泡芙、做泡芙的恋爱故事就此开始！\n\nDat
  e string from steam: "2025-03-28"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -200,8 +200,8 @@ DESCRIPTION:https://store.steampowered.com/app/3438810\n\n「Princess Maker:
  years as part of the "Princess Maker" package series\, where you raise a 
  young girl into adulthood.  Become a parent in the game and help fulfill 
  your daughter's dreams!\n\nDate string from steam: "2025-07-04"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -214,8 +214,8 @@ DESCRIPTION:https://store.steampowered.com/app/3447040\n\nCelebrating the
  2004\, the landmark first installment\, The Legend of Heroes: Sora no 
  Kiseki FC (First Chapter)\, is receiving a full remake!\n\nDate string 
  from steam: "2025-09-19"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -228,8 +228,8 @@ DESCRIPTION:https://store.steampowered.com/app/3664530\n\nLine up patterned
   to convert them into points! Pyramis is an arcade puzzle game that will 
  have you matching colors\, filling in space\, and making chains in 
  entirely new ways.\n\nDate string from steam: "2025-06-03"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -242,8 +242,8 @@ DESCRIPTION:https://store.steampowered.com/app/3739420\n\nUtilizing the
  essence of ancient Chinese mortise and tenon joints\, experiencing the 
  brilliance of ancient wisdom from a completely new perspective.\n\nDate 
  string from steam: "2025-07-11"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 BEGIN:VEVENT
@@ -255,8 +255,8 @@ DESCRIPTION:https://store.steampowered.com/app/3860310\n\n唐天宝十一载的�
  业在盛世长安城邂逅一位神秘的贵族少女。三年后，安史之乱爆发。本不可能走到一起的两个人，会被命运的漩涡抛向何处？玩家将经历多个主角生命中一系列的变故，
  以及，投入到那场中国古代史上最为惨烈的守城战中。是死守，是挽救，还是逃亡？做出你的抉择。\n\nDate string from steam: 
  "2025-12-31"
-LAST-MODIFIED:20250913T042613Z
-DTSTAMP:20250913T042613Z
+LAST-MODIFIED:20250916T042723Z
+DTSTAMP:20250916T042723Z
 CATEGORIES:game_release
 END:VEVENT
 END:VCALENDAR
