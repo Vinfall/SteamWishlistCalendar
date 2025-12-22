@@ -1,4 +1,4 @@
 dateparser==1.2.2
 ics==0.8.0.dev0
-matplotlib==3.10.7
+matplotlib==3.10.8
 requests==2.32.5
