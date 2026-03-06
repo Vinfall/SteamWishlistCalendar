@@ -1,4 +1,4 @@
-name: Run test
+name: Test
 
 on:
   push:
@@ -24,23 +24,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: setup Python with uv
-        id: setup-uv
-        uses: astral-sh/setup-uv@v7
+      - name: setup project with mise
+        id: setup-mise
+        uses: jdx/mise-action@v3
         with:
-          python-version: ${{ matrix.python-version }}
-          activate-environment: true
-          enable-cache: true
-          prune-cache: false # do not remove pre-built wheels
-          ignore-nothing-to-cache: true
-          cache-dependency-glob: "**/requirements.txt"
+          install: true
+          cache: true
+          tool_versions: |
+            python ${{ matrix.python-version }}
+            uv latest
 
-      - name: hint on cache hit
-        if: steps.setup-uv.outputs.cache-hit == 'true'
-        run: echo "Hit cache"
-
-      - name: install dependencies
-        run: uv pip install -r requirements.txt
-
-      - name: execute py script
-        run: python -m swc -i=${{ secrets.STEAMUID }} -d=True
+      - name: run script
+        run: uv run swc.py -i=${{ secrets.STEAMUID }} -d=True

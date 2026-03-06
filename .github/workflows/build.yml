@@ -1,0 +1,65 @@
+name: Build
+
+on:
+  schedule:
+    - cron: 0 4 */3 * * # 4:00 UTC every three days
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-slim
+    strategy:
+      matrix:
+        python-version: ["3.14"]
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+
+      - name: setup project with mise
+        id: setup-mise
+        uses: jdx/mise-action@v3
+        with:
+          install: true
+          cache: true
+          tool_versions: |
+            python ${{ matrix.python-version }}
+            uv latest
+
+      - name: run script
+        run: uv run swc.py -i=${{ secrets.STEAMUID }} -d=True
+
+      - name: check changes
+        id: check_changes
+        run: if [[ $(git diff --name-only HEAD) == *"output/successful.txt"* ]]; then echo "changes=true" > "$GITHUB_OUTPUT"; else echo "changes=false" > "$GITHUB_OUTPUT"; fi
+
+      - name: commit files
+        if: ${{ steps.check_changes.outputs.changes == 'true' }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "ics: update release calendar" -a
+          git push origin main --force
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: checkout repo
+        uses: actions/checkout@v6
+        with:
+          ref: output
+          persist-credentials: true
+
+      - name: commit plots
+        if: ${{ steps.check_changes.outputs.changes == 'true' }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f output/*/png
+          git commit --amend --no-edit
+          git push origin output --force
