@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#   "dateparser==1.3.0",
+#   "ics==0.8.0.dev0",
+#   "matplotlib==3.10.8",
+#   "requests==2.32.5",
+# ]
+# ///
+
 import argparse
 import json
 import re
