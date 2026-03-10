@@ -43,9 +43,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
+          git add -u
           git commit -m "ics: update release calendar" -a
-          git push origin main --force
+          git push origin main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -54,12 +54,13 @@ jobs:
         with:
           ref: output
           persist-credentials: true
+          clean: false # keep output/ as we'd force push them later
 
       - name: commit plots
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f output/*/png
+          git add -f output/*.png
           git commit --amend --no-edit
           git push origin output --force
