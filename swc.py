@@ -15,7 +15,7 @@ import json
 import re
 import sys
 import time
-import urllib
+from urllib import parse
 from collections import namedtuple
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -158,7 +158,7 @@ def get_game_details_via_get_items_api(appids):
         }
     }
 
-    encoded_json_string = urllib.parse.quote(json.dumps(request_json))
+    encoded_json_string = parse.quote(json.dumps(request_json))
 
     url = f"https://api.steampowered.com/IStoreBrowseService/GetItems/v1?input_json={encoded_json_string}"
     try:
