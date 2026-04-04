@@ -1,0 +1,51 @@
+[project]
+name = "SteamWishlistCalendar"
+description = "Steam Wishlist Calendar"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [{ name = "icue" }]
+keywords = ["calendar", "game", "icalendar", "ics", "steam", "wishlist"]
+classifiers = [
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Private :: Do Not Upload",
+  "Programming Language :: Python :: 3",
+  "Topic :: File Formats",
+  "Topic :: Games/Entertainment",
+]
+dependencies = ["dateparser>=1.4.0", "ics==0.8.0.dev0", "requests>=2.33.1"]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/icue/SteamWishlistCalendar"
+issues = "https://github.com/icue/SteamWishlistCalendar/issues"
+source = "https://github.com/icue/SteamWishlistCalendar"
+
+[tool.ruff]
+# force-exclude = true
+unsafe-fixes = true
+
+# https://docs.astral.sh/ruff/rules/
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "E501", # EditorConfig
+  "COM", # commas
+  "D1", # docstring
+  "D212",
+  "D203", # prefer D211
+  "ERA", # commented-out-code
+  "FIX", # fixme
+  "TD002", # todo
+  "TD003",
+  "PLR2004", # magic-value-comparison
+  "PTH", # flake8-use-pathlib: slower than os
+  "RET505", # superfluous-else-return
+  "T20", # print
+]
+# unfixable = ["F401"]
+
+[tool.ty.rules]
+unresolved-import = "ignore" # .venv excluded from vsc/zed
