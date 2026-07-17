@@ -15,10 +15,10 @@ import json
 import re
 import sys
 import time
-from urllib import parse
 from collections import namedtuple
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
+from urllib import parse
 
 import dateparser
 import requests
@@ -40,7 +40,7 @@ _TOTAL = "total"
 _TYPE = "type"
 # The GetItems API is more reliable. It should be preferred in most cases.
 _USE_GET_ITEMS_API = True
-_UTC = timezone.utc
+_UTC = UTC
 _YEAR_ONLY_REGEX = "^(\\d{4}) \\.$"
 
 _BLOCK_LIST = ("tbd", "tba", "to be announced", "when it's done", "when it's ready", "即将推出", "即将宣布", "coming soon")
@@ -73,7 +73,7 @@ def last_day_of_next_month(dt):
     return datetime(year, next_next_month, 1) - timedelta(days=1)
 
 
-def get_wishlist_appids(steamid):
+def get_wishlist_appids(steamid: int):
     url = f"https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid={steamid}"
 
     response = requests.get(url, timeout=30)
@@ -97,7 +97,7 @@ def get_wishlist_appids(steamid):
 GameDetails = namedtuple("GameDetails", [_NAME, _TYPE, _RELEASE_STRING, _SHORT_DESCRIPTION, _PRERELEASE])
 
 
-def get_game_details(appid):
+def get_game_details(appid: int):
     url = f"https://store.steampowered.com/api/appdetails?appids={appid}"
     try:
         response = requests.get(url, timeout=30)
