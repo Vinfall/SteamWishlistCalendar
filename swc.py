@@ -4,7 +4,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #   "dateparser>=1.4.1",
-#   "ics==0.8.0.dev1",
+#   "ical>=14.0.0",
 #   "matplotlib>=3.11.0",
 #   "requests>=2.34.2",
 # ]
@@ -22,7 +22,9 @@ from urllib import parse
 
 import dateparser
 import requests
-from ics import Calendar, Event
+from ical.calendar import Calendar
+from ical.calendar_stream import IcsCalendarStream
+from ical.event import Event
 from matplotlib import pyplot as plt
 from matplotlib import ticker
 
@@ -249,7 +251,7 @@ else:
         time.sleep(0.5)
 
 # Process the wishlist data
-cal = Calendar(creator="SteamWishlistCalendar")
+cal = Calendar(prodid="SteamWishlistCalendar")
 for key, value in wishlist_data.items():
     game_name = value.name
     description_suffix = ""
@@ -300,9 +302,8 @@ for key, value in wishlist_data.items():
 
     event = Event(uid=str(key), summary=game_name,
                   description=f"https://store.steampowered.com/app/{key}{description_suffix}",
-                  begin=release_date, last_modified=now, dtstamp=now,
-                  categories=["game_release"])
-    event.make_all_day()
+                  start=release_date, last_modified=now, dtstamp=now,
+                  categories=["steam"])
     cal.events.append(event)
 
 
@@ -334,7 +335,7 @@ with success_file.open("w", encoding="utf-8") as f:
 # Write the calendar
 ics_file = output_folder.joinpath(_ICS_FILE)
 with ics_file.open("w", encoding="utf-8") as f:
-    f.write(cal.serialize())
+    f.write(IcsCalendarStream.calendar_to_ics(cal))
 
 # Overwrite history
 history_file = output_folder.joinpath(_HISTORY_FILE)
