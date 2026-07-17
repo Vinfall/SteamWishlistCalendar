@@ -3,10 +3,10 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#   "dateparser>=1.4.0",
+#   "dateparser>=1.4.1",
 #   "ics==0.8.0.dev1",
-#   "matplotlib>=3.10.8",
-#   "requests>=2.33.1",
+#   "matplotlib>=3.11.0",
+#   "requests>=2.34.2",
 # ]
 # ///
 
