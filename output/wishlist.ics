@@ -2,344 +2,331 @@ BEGIN:VCALENDAR
 PRODID:SteamWishlistCalendar
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:410340
 DTSTART:20180913T000000
 SUMMARY:Liftoff®: FPV Drone Racing
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a 
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:1749810
 DTSTART:20261231T000000
 SUMMARY:Lair Land Story 2: Mist of Sea
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/1749810\n\nAfter traveling 
  far to the southern end of Lair Land\, seven knights have reached Chainch 
  Bay. Settled in a small tropical fishing village surrounded by ruins\, 
  they will spend the next few years building a new life here while facing 
  the most challenging quest they will ever meet.\n\nDate string from steam:
   "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:1963680
 DTSTART:20271231T000000
 SUMMARY:GUNDAM ROGUE ORBIT
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/1963680\n\nBecome the pilot 
  you were born to be. Change humanity’s fate in GUNDAM ROGUE ORBIT\, a 
  high-mobility action game that delivers a bold new take on Gundam\, 
  blending a fast-paced cinematic story with intense\, hard-hitting combat 
  in an all-new universe.\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
-UID:2524850
-DTSTART:20260715T000000
-SUMMARY:Denshattack!
-CATEGORIES:game_release
-DESCRIPTION:https://store.steampowered.com/app/2524850\n\nFlip\, trick and 
- grind your train in a fast-paced\, off-the-rails ride through a colourful 
- Japanese dystopia. Outmatch rival gangs\, wreck a shady megacorp\, and 
- take back the tracks with nothing but skill\, speed\, and style.\n\nDate 
- string from steam: "2026-07-15"
-LAST-MODIFIED:20260717T073645Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:2533700
 DTSTART:20261231T000000
 SUMMARY:Love\, in Debt!?
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2533700\n\nLove\, In Debt!? 
  is a romance simulation game. You once had a beautiful relationship\, but 
  overnight you were fired\, cheated on\, and even got yourself in a huge 
  debt! In order to survive\, all you can do is work tirelessly! But why 
  does it seem like you became a chick magnet after you're in debt?\n\nDate 
  string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:2638080
 DTSTART:20261231T000000
 SUMMARY:Annihilated
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2638080\n\nYou are the sole 
  survivor and your party has been annihilated. They are BROKEN and you can 
  only save ONE in this dark RPG that mixes deckbuilder roguelite gameplay 
  with cute and twisted anime visual novel narrative. Get ready for high 
  lethality\, unforgiving random events\, and instant retries!\n\nDate 
  string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:2749610
 DTSTART:20250929T000000
 SUMMARY:PANIK
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2749610\n\nPANIK is a puzzle
   game where you have to guide different characters to the goal. But 
  remember: Don’t panic!\n\nDate string from steam: "2025-09-29"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:2985170
 DTSTART:20250328T000000
 SUMMARY:學生騎士團
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2985170\n\n角色扮演戀愛養成加入了大量戰鬥元素
  形成全新的風格。皇家騎士學院的新生臨危受命，一邊學習一邊拯救帝國，近100條分支可發展出52種結局。\n十大魔元素、500種魔法帶你進入神秘的魔法世
  界。數十個壯麗場景，各種地形與建物都具備了不同的屬性，必須掌握地形優勢才能獲得勝利。數十位學員各有不同的特色，如何搭配裝備及在那一關出場，同樣在考驗
  玩家的智慧！\n\nDate string from steam: "2025-03-28"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
-UID:3078590
-DTSTART:20241007T000000
-SUMMARY:Gensei Suikoden Plus
-CATEGORIES:game_release
-DESCRIPTION:https://store.steampowered.com/app/3078590\n\nThe refreshing 
- and brisk-paced turn-based combat remains unchanged!\nThe visuals are 
- scaled up\, and the movements are made even more delightful!\nLet's enjoy 
- the nostalgic BGM and witty lines with puns!\nPacked with exclusive 
- original content not found in the original work!\n\nDate string from 
- steam: "2024-10-07"
-LAST-MODIFIED:20260717T073645Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3211430
 DTSTART:20260826T000000
 SUMMARY:BRIGANDINE ABYSS
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3211430\n\nPlay as one of 
  six factions to confront the Abyssloa Empire. Command your troops\, 
  develop your bases\, and take control of the continent of Meltitea in this
   tactical strategy RPG!\n\nDate string from steam: "2026-08-26"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3339880
 DTSTART:20250815T000000
 SUMMARY:OFF
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3339880\n\n“I’m the Batter. 
  I’ve been entrusted with a sacred mission.” -- One of the most influential
   RPGs of the last 20 years is finally coming to Steam. Take control of the
   Batter as he seeks to purify an uncanny and hopeless world haunted by 
  specters\, guided by a cryptic\, grinning cat called The Judge.\n\nDate 
  string from steam: "2025-08-15"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3502620
 DTSTART:20261231T000000
 SUMMARY:DEMONS' NIGHT FEVER
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3502620\n\nEnemies? Allies? 
  Kill Kill Kill! The more you die\, the stronger you become! Raising RTA 
  Simulation RPG has arrived! Exhaust all forms of evil by fighting with the
   brutal Peon Exploitation System!\n\nDate string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
+UID:3562580
+DTSTART:20260812T000000
+SUMMARY:Agefield High: Rock the School
+CATEGORIES:steam
+DESCRIPTION:https://store.steampowered.com/app/3562580\n\nRelive your High 
+ School days in the town of Agefield. It’s the early 2000s\, and graduation
+  is on the horizon. REBEL with your friends\, win over your dream girl and
+  ROCK the school! A coming-of-age adventure about friendship\, love\, and 
+ rebellion inspired by the raunchy teen comedies of the era.\n\nDate string
+  from steam: "2026-08-12"
+LAST-MODIFIED:20260724T045055Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260724T045055Z
 UID:3825390
 DTSTART:20260730T000000
 SUMMARY:BLUE REFLECTION Quartet
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3825390\n\nCosmos converge\,
   into one light. The emotional stories of magical Reflectors and the bonds
   they form. The entire BLUE REFLECTION series combined into one!\n\nDate 
  string from steam: "2026-07-30"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3831120
 DTSTART:20251120T000000
 SUMMARY:Mandate Of Heaven
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3831120\n\nYou will take on 
  the role of the Second Prince of Xuan\, heir of the Southern Regime. With 
  foreign invaders entrenched in the north and a complacent court content to
   linger in the south\, you face a defining choice:The choice… is 
  yours!\n\nDate string from steam: "2025-11-20"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3840250
 DTSTART:20251221T000000
 SUMMARY:Long Black-Haired Schoolgirl Survival Simulation Game
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3840250\n\nPlay as a 
  stranded high school girl with long black hair and try to escape from a 
  deserted island!\n\nDate string from steam: "2025-12-21"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:3946250
 DTSTART:20260828T000000
 SUMMARY:痴情妹妹纱雪的兄控日记
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3946250\n\nTamaMako首部原创游戏，以闷
  骚妹妹VS妹控哥哥为主题。夏日的心动同居物语从此开始！本游戏内含五篇ASMR音声，让你的体验不再单调！夏日的每一天，我们的妹妹要如何表达自己的爱意呢
  ？\n\nDate string from steam: "2026-08-28"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4084710
 DTSTART:20261001T000000
 SUMMARY:Rayman Legends Retold
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4084710\n\nEmbark on a bold 
  reimagining of the beloved platformer\, with new visuals and a retold 
- story. Play solo or up to 4‑player couch co‑op\, explore a mysterious new 
- realm\, jam through new musical stages\, and more!\n\n\nDate string from 
- steam: "2026-10-01"
-LAST-MODIFIED:20260717T073645Z
+ story. Play solo or in up to 4‑player couch co‑op\, explore a mysterious 
+ new realm\, jam through new musical stages\, and more!\n\nDate string from
+  steam: "2026-10-01"
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4225980
 DTSTART:20260917T000000
 SUMMARY:Trails in the Sky 2nd Chapter
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4225980\n\nTurn the page on 
  the explosive 2nd chapter of Nihon Falcom’s legendary Trails saga! Estelle
   Bright sets out on a new journey across Liberl to uncover the truth 
  behind Joshua’s disappearance and defeat the sinister Ouroboros 
  organization.\n\nDate string from steam: "2026-09-17"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4231820
 DTSTART:20261015T000000
 SUMMARY:Castlevania: Belmont's Curse
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4231820\n\nCrimson Curse 
  —Will Your Fate Bloom in Despair or Salvation\nSet 23 years after 
  Castlevania Dracula's Curse - follow Rose Belmont's journey in an all new 
  2D Action-Exploration title from KONAMI\, Evil Empire and Motion 
  Twin.\n\nDate string from steam: "2026-10-15"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4253770
 DTSTART:20271231T000000
 SUMMARY:Muramasa: Revenant Blades
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4253770\n\nVanillaware x 
  Marvelous present an action RPG for the ages. Hack and slash your way 
  through a world of restless spirits and Demon Blades. The tales of six 
  fabled protagonists of Japan's Genroku era\, each with their own unique 
  fighting style\, are about to unfold.\n\nDate string from steam: 
  "2027-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4312210
 DTSTART:20260330T000000
 SUMMARY:Loot Draggin'
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4312210\n\nDodge falling 
  bricks and make your way to the dragon lair to collect valuables while 
  evading the angry creature.\n\nDate string from steam: "2026-03-30"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4327730
 DTSTART:20261231T000000
 SUMMARY:洛希极限 Roche Limit
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4327730\n\n​Roche Limit​ is 
  a 2D pixel sci-fi action roguelite\, blending high-speed aerial combat 
  with ARPG builds. Choose a mecha-girl\, build her skills on the battle\, 
  and face the cosmic legion. Between runs\, bond with the girls for more 
  skill possibles and stories. Prevent cataclysm before the moon 
  falls.\n\nDate string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4372780
 DTSTART:20271231T000000
 SUMMARY:Muv-Luv: Tactics Kalidasa at Nightmare
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4372780\n\nThe heir to the 
  legendary "Muv-Luv Alternative" series\, "Muv-Luv: Tactics Kalidasa at 
  Nightmare" is a tactical simulation RPG devoted to pure gameplay 
  excellence.\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4480060
 DTSTART:20271231T000000
 SUMMARY:Hidden Folks 2
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4480060\n\nSearch for hidden
   folks in interactive miniature landscapes. Scare some giraffes\, ride a 
  few rides\, appreciate some art\, and push around some astronauts. 
  Wheeeeeeee!!!\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4559070
 DTSTART:20261231T000000
 SUMMARY:There's Something Wrong with the Hero's Choices
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4559070\n\n「その選択肢、正気か？」シンプルな
  ノベルゲームのはずなのに、とにかく“選択肢”がおかしい！？ 予想を超える展開が待ち受ける、奇想天外なテキストアドベンチャーゲーム！\n\nDate 
  string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4562750
 DTSTART:20261231T000000
 SUMMARY:Dungeon Sweeper Plus
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4562750\n\nExpand the world 
  map by uncovering surrounding tiles\, aiming to complete your in-game 
  Encyclopedia. Just be careful not to step on dungeon tiles 
  (landmines)!\n\nDate string from steam: "2026-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260717T073645Z
+DTSTAMP:20260724T045055Z
 UID:4915490
 DTSTART:20271231T000000
 SUMMARY:MoonHack
-CATEGORIES:game_release
+CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4915490\n\nMoonHack is an 
  emotional cyber-noir adventure game where songs rewrite the rules of the 
  world.\nThe story segments are closely integrated with 3D rhythm-action 
  gameplay synchronized with vocal performances\, and through songs\, the 
  rules behind a system that controls happiness will be rewritten.\n\nDate 
  string from steam: "2027-12-31"
-LAST-MODIFIED:20260717T073645Z
+LAST-MODIFIED:20260724T045055Z
 END:VEVENT
 END:VCALENDAR
