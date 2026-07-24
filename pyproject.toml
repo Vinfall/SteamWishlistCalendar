@@ -8,7 +8,6 @@ license-files = ["LICENSE"]
 authors = [{ name = "icue" }]
 keywords = ["calendar", "game", "icalendar", "ics", "steam", "wishlist"]
 classifiers = [
-  "License :: OSI Approved :: BSD License",
   "Operating System :: OS Independent",
   "Private :: Do Not Upload",
   "Programming Language :: Python :: 3",
