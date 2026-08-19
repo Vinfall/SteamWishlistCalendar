@@ -4,7 +4,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #   "dateparser>=1.4.2",
-#   "ical>=14.0.1",
+#   "ical>=14.1.1",
 #   "matplotlib>=3.11.0",
 #   "requests>=2.34.2",
 # ]
