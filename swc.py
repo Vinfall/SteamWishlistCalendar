@@ -392,26 +392,4 @@ annotate_run_time(plt)
 plt.grid(color=_GRID_COLOR)
 fig.autofmt_xdate()
 plt.savefig(output_folder.joinpath(_HISTORY_CHART_FILE), dpi=_DPI)
-
-# Redraw a stack plot.
-fig, ax = plt.subplots(facecolor=_BACKGROUND_COLOR)
-ax.xaxis.set_major_locator(ticker.MultipleLocator(max(1, int(len(x) / 8))))
-ax.yaxis.set_major_locator(ticker.MultipleLocator(max(1, int(max(*y, *prerelease_y) / 10))))
-
-ax.stackplot(x,
-             [[total_count - prerelease_count for total_count, prerelease_count in zip(y, prerelease_y, strict=False)],
-              prerelease_y],
-             labels=[_RELEASED, _PRERELEASE], colors=["#8EC07C", "#D3869B"])
-ax.tick_params(color=_COLOR, labelcolor=_LABEL_COLOR)
-ax.set_facecolor(_BACKGROUND_COLOR)
-ax.set_ylabel("# of items on Wishlist")
-ax.yaxis.label.set_color(_LABEL_COLOR)
-
-set_spine_visibility(ax)
-set_legend(ax, "upper left")
-
-plt.title("Wishlist History - Stack Plot", color=_LABEL_COLOR)
-annotate_run_time(plt)
-fig.autofmt_xdate()
-plt.savefig(output_folder.joinpath(_HISTORY_STACK_PLOT_FILE), dpi=_DPI)
 # fmt: on
