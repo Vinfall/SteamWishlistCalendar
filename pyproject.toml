@@ -44,6 +44,9 @@ ignore = [
   "PTH", # flake8-use-pathlib: slower than os
   "RET505", # superfluous-else-return
   "T20", # print
+  # project-specific
+  "ANN",
+  "BLE001"
 ]
 # unfixable = ["F401"]
 
