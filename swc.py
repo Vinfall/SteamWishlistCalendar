@@ -330,6 +330,7 @@ output_folder.mkdir(exist_ok=True)
 # Write successful deductions
 success_file = output_folder.joinpath(_SUCCESS_FILE)
 with success_file.open("w", encoding="utf-8") as f:
+    successful_deductions.sort(key=lambda x: x.split("\t", 1)[1])
     f.write("\n".join(successful_deductions))
 
 # Write the calendar
