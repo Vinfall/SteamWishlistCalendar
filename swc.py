@@ -290,13 +290,13 @@ for key, value in wishlist_data.items():
             release_date = last_day_of_next_month(release_date)
         description_suffix = f'\n\n{value.short_description}\n\nDate string from steam: "{value.release_string}"'
     else:
-        print(f"Failed deduction: {key}\t\t{game_name}\t\t{value.release_string}")
+        print(f"Failed deduction: {key}\t{game_name}\t{value.release_string}")
         continue
 
     if not release_date:
         continue
 
-    successful_deductions.append(f"{game_name}\t\t{release_date.date()}")
+    successful_deductions.append(f"{game_name}\t{release_date.date()}")
     if value.type == "dlc" and not args.include_dlc:
         continue
 
