@@ -109,14 +109,16 @@ def get_wishlist_appids(steamid: int):
 
     wishlist_appids = []
     if "response" in response_data and "items" in response_data["response"]:
-        for item in response_data["response"]["items"]:
-            if "appid" in item:
-                wishlist_appids.append(int(item["appid"]))
+        wishlist_appids.extend(
+            int(item["appid"])
+            for item in response_data["response"]["items"]
+            if "appid" in item
+        )
 
     return sorted(wishlist_appids)
 
 
-GameDetails = namedtuple(
+GameDetails = namedtuple(  # noqa: PYI024
     "GameDetails", [_NAME, _TYPE, _RELEASE_STRING, _SHORT_DESCRIPTION, _PRERELEASE]
 )
 
