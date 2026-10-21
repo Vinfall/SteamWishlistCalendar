@@ -28,7 +28,6 @@ from ical.event import Event
 from matplotlib import pyplot as plt
 from matplotlib import ticker
 
-# fmt: off
 _GET_ITEMS_BATCH_SIZE = 200
 _LAST_DAY = "-12-31"
 _NAME = "name"
@@ -45,12 +44,33 @@ _USE_GET_ITEMS_API = True
 _UTC = UTC
 _YEAR_ONLY_REGEX = "^(\\d{4}) \\.$"
 
-_BLOCK_LIST = ("tbd", "tba", "to be announced", "when it's done", "when it's ready", "即将推出", "即将宣布", "coming soon")
+_BLOCK_LIST = (
+    "tbd",
+    "tba",
+    "to be announced",
+    "when it's done",
+    "when it's ready",
+    "即将推出",
+    "即将宣布",
+    "coming soon",
+)
 _TO_REPLACE = (
-    ("spring", "mar"), ("summer", "june"), ("fall", "sep"), ("winter", "dec"),
-    ("q1", "feb"), ("q2", "may"), ("q3", "aug"), ("q4", "nov"),
-    ("第一季度", "feb"), ("第二季度", "may"), ("第三季度", "aug"), ("第四季度", "nov"),
-    ("年", "."), ("月", "."), ("日", "."), ("号", ".")
+    ("spring", "mar"),
+    ("summer", "june"),
+    ("fall", "sep"),
+    ("winter", "dec"),
+    ("q1", "feb"),
+    ("q2", "may"),
+    ("q3", "aug"),
+    ("q4", "nov"),
+    ("第一季度", "feb"),
+    ("第二季度", "may"),
+    ("第三季度", "aug"),
+    ("第四季度", "nov"),
+    ("年", "."),
+    ("月", "."),
+    ("日", "."),
+    ("号", "."),
 )
 
 
@@ -96,7 +116,9 @@ def get_wishlist_appids(steamid: int):
     return sorted(wishlist_appids)
 
 
-GameDetails = namedtuple("GameDetails", [_NAME, _TYPE, _RELEASE_STRING, _SHORT_DESCRIPTION, _PRERELEASE])
+GameDetails = namedtuple(
+    "GameDetails", [_NAME, _TYPE, _RELEASE_STRING, _SHORT_DESCRIPTION, _PRERELEASE]
+)
 
 
 def get_game_details(appid: int):
@@ -106,31 +128,19 @@ def get_game_details(appid: int):
     except Exception as e:
         print(f"Unexpected error: {e}")
         return GameDetails(
-            name="",
-            type="",
-            release_string="",
-            short_description="",
-            prerelease=False
+            name="", type="", release_string="", short_description="", prerelease=False
         )
 
     if response.status_code != 200:
         return GameDetails(
-            name="",
-            type="",
-            release_string="",
-            short_description="",
-            prerelease=False
+            name="", type="", release_string="", short_description="", prerelease=False
         )
 
     response_data = response.json()
     app_data_wrapper = response_data.get(str(appid), {})
     if not app_data_wrapper.get("success"):
         return GameDetails(
-            name="",
-            type="",
-            release_string="",
-            short_description="",
-            prerelease=False
+            name="", type="", release_string="", short_description="", prerelease=False
         )
 
     app_data = app_data_wrapper.get("data", {})
@@ -141,7 +151,7 @@ def get_game_details(appid: int):
         type=app_data.get(_TYPE, ""),
         release_string=release_date.get("date", ""),
         short_description=app_data.get(_SHORT_DESCRIPTION, ""),
-        prerelease=prerelease
+        prerelease=prerelease,
     )
 
 
@@ -152,12 +162,9 @@ def get_game_details_via_get_items_api(appids):
             # TODO: maybe expose this to config
             "language": "schinese",
             "country_code": "CN",
-            "steam_realm": 1
+            "steam_realm": 1,
         },
-        "data_request": {
-            "include_release": True,
-            "include_basic_info": True
-        }
+        "data_request": {"include_release": True, "include_basic_info": True},
     }
 
     encoded_json_string = parse.quote(json.dumps(request_json))
@@ -202,7 +209,7 @@ def get_game_details_via_get_items_api(appids):
                 else custom_release_date_message
             ),
             short_description=short_description,
-            prerelease=prerelease_
+            prerelease=prerelease_,
         )
 
         # Add to dictionary
@@ -232,7 +239,10 @@ wishlist_appids = get_wishlist_appids(args.id)
 
 if _USE_GET_ITEMS_API:
     # Process the appids in batches, as the GetItems API will return error for request that is too large
-    wishlist_appid_batches = [wishlist_appids[i:i + _GET_ITEMS_BATCH_SIZE] for i in range(0, len(wishlist_appids), _GET_ITEMS_BATCH_SIZE)]
+    wishlist_appid_batches = [
+        wishlist_appids[i : i + _GET_ITEMS_BATCH_SIZE]
+        for i in range(0, len(wishlist_appids), _GET_ITEMS_BATCH_SIZE)
+    ]
     for batch in wishlist_appid_batches:
         wishlist_data.update(get_game_details_via_get_items_api(batch))
         time.sleep(3)
@@ -274,14 +284,18 @@ for key, value in wishlist_data.items():
         # Release string only contains information about the year.
         year = year_only_match.group(1)
         # If XXXX.09.15 has already passed, use the last day of that year.
-        sep_release_date = datetime.strptime(f"{year}{_SEP}", "%Y-%m-%d").replace(tzinfo=_UTC)
-        release_string = f"{year}{_SEP}" if sep_release_date > now else f"{year}{_LAST_DAY}"
+        sep_release_date = datetime.strptime(f"{year}{_SEP}", "%Y-%m-%d").replace(
+            tzinfo=_UTC
+        )
+        release_string = (
+            f"{year}{_SEP}" if sep_release_date > now else f"{year}{_LAST_DAY}"
+        )
 
     # Try to parse a machine-readable date from the release string.
-    translated_date = dateparser.parse(release_string,
-                                       settings={
-                                           "PREFER_DAY_OF_MONTH": "last",
-                                           "PREFER_DATES_FROM": "future"})
+    translated_date = dateparser.parse(
+        release_string,
+        settings={"PREFER_DAY_OF_MONTH": "last", "PREFER_DATES_FROM": "future"},
+    )
     if translated_date:
         release_date = translated_date
         while value.prerelease and release_date.date() < now.date():
@@ -300,10 +314,15 @@ for key, value in wishlist_data.items():
     if value.type == "dlc" and not args.include_dlc:
         continue
 
-    event = Event(uid=str(key), summary=game_name,
-                  description=f"https://store.steampowered.com/app/{key}{description_suffix}",
-                  start=release_date, last_modified=now, dtstamp=now,
-                  categories=["steam"])
+    event = Event(
+        uid=str(key),
+        summary=game_name,
+        description=f"https://store.steampowered.com/app/{key}{description_suffix}",
+        start=release_date,
+        last_modified=now,
+        dtstamp=now,
+        categories=["steam"],
+    )
     cal.events.append(event)
 
 
@@ -344,7 +363,10 @@ data = {}
 if history_file.is_file():
     with history_file.open() as f:
         data = json.load(f)
-data[datetime.today().strftime("%Y-%m-%d")] = {_PRERELEASE: prerelease_count, _TOTAL: len(wishlist_appids)}
+data[datetime.today().strftime("%Y-%m-%d")] = {
+    _PRERELEASE: prerelease_count,
+    _TOTAL: len(wishlist_appids),
+}
 with history_file.open("w") as f:
     json.dump(data, f)
 
@@ -363,22 +385,33 @@ def set_legend(ax, location) -> None:
 
 
 def annotate_run_time(pyplot) -> None:
-    pyplot.annotate(f"Last run: {now:%Y-%m-%d %H:%M:%S} UTC", (0.5, 0), (0, -60),
-                    xycoords="axes fraction", ha="center", textcoords="offset points",
-                    color=_COLOR, fontsize=8)
+    pyplot.annotate(
+        f"Last run: {now:%Y-%m-%d %H:%M:%S} UTC",
+        (0.5, 0),
+        (0, -60),
+        xycoords="axes fraction",
+        ha="center",
+        textcoords="offset points",
+        color=_COLOR,
+        fontsize=8,
+    )
 
 
 # Redraw a line chart.
 fig, ax = plt.subplots(facecolor=_BACKGROUND_COLOR)
 x, y = zip(*sorted({k: v[_TOTAL] for k, v in data.items()}.items()), strict=False)
-prerelease_x, prerelease_y = zip(*sorted({k: v[_PRERELEASE] for k, v in data.items()}.items()), strict=False)
+prerelease_x, prerelease_y = zip(
+    *sorted({k: v[_PRERELEASE] for k, v in data.items()}.items()), strict=False
+)
 
 ax.xaxis.set_major_locator(ticker.MultipleLocator(max(1, int(len(x) / 8))))
 y_range = max(*y, *prerelease_y) - min(*y, *prerelease_y)
 ax.yaxis.set_major_locator(ticker.MultipleLocator(max(1, int(y_range / 10))))
 
 ax.plot(x, y, marker=".", color=_LINE_COLOR, label=_TOTAL)
-ax.plot(prerelease_x, prerelease_y, marker=".", color=_LINE_COLOR_ALT, label=_PRERELEASE)
+ax.plot(
+    prerelease_x, prerelease_y, marker=".", color=_LINE_COLOR_ALT, label=_PRERELEASE
+)
 ax.tick_params(color=_GRID_COLOR, labelcolor=_LABEL_COLOR)
 ax.set_facecolor(_BACKGROUND_COLOR)
 ax.set_ylabel("# of items on Wishlist")
@@ -393,4 +426,3 @@ annotate_run_time(plt)
 plt.grid(color=_GRID_COLOR)
 fig.autofmt_xdate()
 plt.savefig(output_folder.joinpath(_HISTORY_CHART_FILE), dpi=_DPI)
-# fmt: on

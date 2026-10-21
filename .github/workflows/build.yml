@@ -45,7 +45,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -u
-          git commit -m "ics: update release calendar" -a
+          git commit -m "ics: update calendar" -a
           git push origin main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
