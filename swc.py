@@ -150,8 +150,8 @@ def get_game_details_via_get_items_api(appids):
         "ids": [{"appid": appid} for appid in appids],
         "context": {
             # TODO: maybe expose this to config
-            "language": "english",
-            "country_code": "US",
+            "language": "schinese",
+            "country_code": "CN",
             "steam_realm": 1
         },
         "data_request": {
