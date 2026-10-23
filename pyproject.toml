@@ -2,7 +2,7 @@
 name = "SteamWishlistCalendar"
 description = "Steam Wishlist Calendar"
 readme = { file = "README.md", content-type = "text/markdown" }
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 license = "BSD-3-Clause"
 license-files = ["LICENSE"]
 authors = [{ name = "icue" }]
@@ -14,7 +14,7 @@ classifiers = [
   "Topic :: File Formats",
   "Topic :: Games/Entertainment",
 ]
-dependencies = ["dateparser>=1.4.3", "ical>=14.3.0", "requests>=2.34.2"]
+dependencies = ["certifi>=2026.10.19", "dateparser>=1.4.3", "ical>=14.3.1", "requests>=2.34.2"]
 dynamic = ["version"]
 
 [project.urls]

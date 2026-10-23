@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.13"
 # dependencies = [
+#   "certifi>=2026.10.19",
 #   "dateparser>=1.4.3",
-#   "ical>=14.3.0",
-#   "matplotlib>=3.11.0",
+#   "ical>=14.3.1",
+#   "matplotlib>=3.11.2",
 #   "requests>=2.34.2",
 # ]
 # ///
