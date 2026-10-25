@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 PRODID:SteamWishlistCalendar
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:410340
 DTSTART:20180913T000000
 SUMMARY:Liftoff®: FPV Drone Racing
@@ -11,10 +11,10 @@ DESCRIPTION:https://store.steampowered.com/app/410340\n\nLiftoff® is a
  drone simulator that translates the rush of first-person view drone flight
   to the digital world. Join the biggest community for virtual FPV racing 
  and freestyle!\n\nDate string from steam: "2018-09-13"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:1749810
 DTSTART:20271231T000000
 SUMMARY:兰岛物语2：奇沧的幻海
@@ -22,10 +22,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/1749810\n\n七位骑士远行至兰岛大陆最南端──奇
  沧的海湾，充满遗迹和南国风情的渔村。接下来几年将展开全新生活，完成骑士生涯中的艰巨任务。\n\nDate string from steam: 
  "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:1963680
 DTSTART:20270304T000000
 SUMMARY:GUNDAM 异轨征途
@@ -33,10 +33,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/1963680\n\n崭新的高达体验，自此开始。\n《G
  UNDAM 异轨征途》是能驾驶自由搭配各种装备与技能的高达，体验高速自在的高机动战斗的动作游戏。\n\nDate string from 
  steam: "2027-03-04"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:2155070
 DTSTART:20270128T000000
 SUMMARY:Fate/EXTRA Record
@@ -44,10 +44,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2155070\n\n以顶级画面与富有策略性的战斗系统，
  为您献上扣人心弦的故事体验。\n这是一卷现代魔术师们赌上性命与愿望所谱写的战火记录。\n《Fate》系列首款正统RPG，在此重获新生——\n\nDa
  te string from steam: "2027-01-28"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:2638080
 DTSTART:20261110T000000
 SUMMARY:勇者小队全灭了。
@@ -55,10 +55,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/2638080\n\n《勇者小队全灭了。》是一款剧情驱动
  的Roguelite游戏。作为救援队最后的幸存者，你需要从全灭的勇者小队中选择并救出一名成员，与其一同逃离被诅咒的地牢。在归途中，你将逐渐了解他们的
  过去，并帮助他们面对各自的缺陷。四位勇者，四段不同的故事。\n\nDate string from steam: "2026-11-10"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:2985170
 DTSTART:20250328T000000
 SUMMARY:学生骑士团
@@ -67,10 +67,10 @@ DESCRIPTION:https://store.steampowered.com/app/2985170\n\n角色扮演恋爱养�
  形成全新的风格。皇家骑士学院的新生临危受命，一边学习一边拯救帝国，近100条分支可发展出52种结局。\n十大魔元素、500种魔法带你进入神秘的魔法世
  界。数十个壮丽场景，各种地形与建物都具备了不同的属性，必须掌握地形优势才能获得胜利。数十位学员各有不同的特色，如何搭配装备及在那一关出场，同样在考验
  玩家的智慧！\n\nDate string from steam: "2025-03-28"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3141020
 DTSTART:20241004T000000
 SUMMARY:绯雪千夜 Remaster
@@ -78,10 +78,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3141020\n\n那天，天空也是下着绯红色的雪——，
  火狗工房2005年经典单机游戏《绯雪千夜～之后…千夜一夜》Remaster版！在一千夜的时间内，让四季屋的千业—十夜，把女神种子莉莉丝，通过冒险、锻
  炼、战斗、和每日每夜的大小事，育成为出色的女神吧！\n\nDate string from steam: "2024-10-04"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3278930
 DTSTART:20271231T000000
 SUMMARY: 百战天虫：银河智战
@@ -89,10 +89,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3278930\n\n百战天虫正式进军战术 
  Roguelike 战斗领域！在可破坏竞技场中激战，改装经典武器，释放毁天灭地的策略连招，为生存、财富与荣耀而战！\n\nDate string 
  from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3339880
 DTSTART:20250815T000000
 SUMMARY:OFF
@@ -103,32 +103,10 @@ DESCRIPTION:https://store.steampowered.com/app/3339880\n\n“I’m the Batter.
   Batter as he seeks to purify an uncanny and hopeless world haunted by 
  specters\, guided by a cryptic\, grinning cat called The Judge.\n\nDate 
  string from steam: "2025-08-15"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
-UID:3486530
-DTSTART:20261021T000000
-SUMMARY:愚者不灭（Stupid Never Dies）
-CATEGORIES:steam
-DESCRIPTION:https://store.steampowered.com/app/3486530\n\n疾速成长动作RPG！让最弱僵尸戴维
- 变得强大无比！吞噬敌人、夺取能力并不断变身，勇闯危险的异世界地下城，只为复活冰封的朱莉娅！\n\nDate string from steam: 
- "2026-10-21"
-LAST-MODIFIED:20261022T090039Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
-UID:3502620
-DTSTART:20261022T000000
-SUMMARY:恶魔夜疯狂
-CATEGORIES:steam
-DESCRIPTION:https://store.steampowered.com/app/3502620\n\n不分敌我全部杀杀杀！死越多越强的养
- 成型RTA模拟RPG 登场！运用残酷无情的"剥削侍从系统"进行战斗，将邪恶发挥到极致！\n\nDate string from steam: 
- "2026-10-22"
-LAST-MODIFIED:20261022T090039Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3557160
 DTSTART:20270630T000000
 SUMMARY:艾希：续
@@ -137,10 +115,10 @@ DESCRIPTION:https://store.steampowered.com/app/3557160\n\n《艾希：续》是�
  作，是一款 2D 横版卷轴动作 + Meta 游戏：在无数次轮回后，艾希击败了犹大，选择了离开这个世界。但轮回并未结束 —— 
  三个接受了约定的个体，仍在各自的路上等待。现在，跟着箭头，击败他们，夺回他们晶魂化作的面具，这就是你的使命。\n\nDate string from
   steam: "2027-06-30"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3621390
 DTSTART:20271231T000000
 SUMMARY:彩虹六号：战术行动
@@ -148,21 +126,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3621390\n\n《彩虹六号：战术行动》是一款背景设
  定在彩虹六号世界中的回合制策略游戏。在激烈交战中冷静下达命令，指挥特勤干员小队，发动同步攻坚，灵活利用破坏机制，最终破解阴谋谜团。\n\nDate 
  string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
-UID:3714800
-DTSTART:20271231T000000
-SUMMARY:Warlock: Dungeons & Dragons
-CATEGORIES:steam
-DESCRIPTION:https://store.steampowered.com/app/3714800\n\n在《Warlock》中扮演卡特里，
- 在以 D&D 为灵感打造的开放世界中，以第三人称视角展开单人动作冒险。操控禁忌魔法，改写周遭规则。从探索到战斗，每一次挑战都是对创造力、筹谋与策略的
- 考验。\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3781790
 DTSTART:20270304T000000
 SUMMARY:ETERNAL ANIMA 永恒的灵漪
@@ -170,10 +137,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3781790\n\n献给所有JRPG爱好者，以“传承”
  与“进化”为概念的完全新作。穿梭于过去与现代，逐步揭开失落历史真相的厚重故事。亲切易上手的回合制指令战斗，搭载可预见行动结果的“预测未来”系统，带来
  独具特色的策略体验。\n\nDate string from steam: "2027-03-04"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3831120
 DTSTART:20251120T000000
 SUMMARY:江山北望
@@ -181,31 +148,20 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3831120\n\n你将扮演南渡政权中的宣国二皇子，面
  对外敌盘踞在北，朝廷偏安于内的交困现实，是坚持克复神州的志向，还是纵情享乐，是要江山，还是要美人？上百个选项分支，十几个通关谥号，是被后世评为“宣废
  帝”还是“宣光武帝”？一切，都要由你来选择！\n\nDate string from steam: "2025-11-20"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:3840250
 DTSTART:20251221T000000
 SUMMARY:黑发长发女高中生生存模拟游戏
 CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/3840250\n\n你将扮演一位黑长直女高中生，在无人
  岛上求生，一起寻找逃脱的方法吧！\n\nDate string from steam: "2025-12-21"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
-UID:3885720
-DTSTART:20271231T000000
-SUMMARY:壁画迷境
-CATEGORIES:steam
-DESCRIPTION:https://store.steampowered.com/app/3885720\n\n这些不是你熟悉的童话。走进《壁画迷
- 境》（Murals）的手绘世界，用风格化战斗、奇异武器与诡异饰物杀出一条路，踏入一场童话彻底失控的斜俯视角动作冒险。\n\nDate string 
- from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4027620
 DTSTART:20271231T000000
 SUMMARY:四狂神战记：I&II
@@ -213,10 +169,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4027620\n\n1993年推出的RPG《四狂神战记
  》，以及作为前传、于1995年推出的RPG《四狂神战记II》，经过部分翻新后重新移植！\n\n如今，曾让无数玩家为之落泪的戏剧性故事，即将再次重现！
  \n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4049940
 DTSTART:20271231T000000
 SUMMARY:嘆きの七英雄 /Seven Heroes of Sorrow
@@ -224,10 +180,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4049940\n\n背负毁灭命运的七位英雄，编织出一段
  感动人心的物语。\n荣获梦现免费游戏大奖，由120多位声优全程配音的主线剧情——史诗级RPG震撼登场！\nRPG爱好者强烈推荐！\n\nDate 
  string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4084710
 DTSTART:20261203T000000
 SUMMARY:雷曼：传奇再叙
@@ -235,20 +191,20 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4084710\n\n在这部备受喜爱的平台动作游戏重制版
  中，开启一段视觉焕新、剧情重构的大胆冒险。你可以选择独自闯关，也可以选择最多 4 
  人游玩的多人模式，探索神秘的新领域，在新音乐关卡中尽情摇摆！\n\n\nDate string from steam: "2026-12-03"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4113000
 DTSTART:20270421T000000
 SUMMARY:MELTY BLOOD: TWI-LUMINA
 CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4113000\n\n随着战斗系统进一步完善和新角色的加
  入，月下狂欢再掀高潮。于梦境之中的战斗再次揭开序幕——\n\nDate string from steam: "2027-04-21"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4214960
 DTSTART:20270216T000000
 SUMMARY:浪漫沙加3 错综宿命
@@ -256,10 +212,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4214960\n\n《浪漫沙加3》完全重制！\n通过3
  D画面、进化的游戏系统、重新编曲的BGM与语音，让那段冒险再次苏醒。\n本作是一款指令式RPG，玩家可从八位主角中选择一位，挑战围绕“宿命之子”的命
  运。\n\nDate string from steam: "2027-02-16"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4253770
 DTSTART:20270204T000000
 SUMMARY:胧村正怪奇谭
@@ -268,10 +224,10 @@ DESCRIPTION:https://store.steampowered.com/app/4253770\n\n由Marvelous与Vanill
  aware联合呈献，绚烂绘卷和风动作 
  RPG《胧村正怪奇谭》现已登场。在妖怪肆虐的元禄之世，尽情领略六段奇幻怪谈与畅快淋漓的剑戟动作体验。\n\nDate string from 
  steam: "2027-02-04"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4312210
 DTSTART:20260330T000000
 SUMMARY:Loot Draggin'
@@ -279,10 +235,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4312210\n\nDodge falling 
  bricks and make your way to the dragon lair to collect valuables while 
  evading the angry creature.\n\nDate string from steam: "2026-03-30"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4327730
 DTSTART:20261231T000000
 SUMMARY:洛希极限 Roche Limit
@@ -291,10 +247,10 @@ DESCRIPTION:https://store.steampowered.com/app/4327730\n\n《洛希极限》是�
  的2D像素动作游戏。将“ARPG构筑决策”与“高速空战”融合进了类Rogue游戏的单局之中。你要控制机甲少女，在战场上不断强化武装力量，面对天外飞来
  的不速之客。在月亮到达洛希极限之前，解决末日危机。在战斗外，与少女们互动，深入她们的内心，获得更多ARPG构筑可能性。\n\nDate string
   from steam: "2026-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4372780
 DTSTART:20271231T000000
 SUMMARY:Muv-Luv: Tactics 迦梨陀娑的噩梦
@@ -302,10 +258,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4372780\n\n承袭不朽名作《Muv-Luv 
  Alternative》系列的灵魂，追求纯粹“游戏本真乐趣”的战术模拟RPG——《Muv-Luv: Tactics 迦梨陀娑的噩梦》\n\nDate
   string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4457150
 DTSTART:20260923T000000
 SUMMARY:咬咬花园
@@ -313,10 +269,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4457150\n\n一款用光引导植物的精巧解谜游戏。化
  身一盏小灯，用光改变那些可爱却不太安分的植物的形状，开辟前路，探索奇妙的咬咬花园，找到你的小狗。\n\nDate string from 
  steam: "2026-09-23"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4467420
 DTSTART:20271231T000000
 SUMMARY:妖怪克星 纳比之介
@@ -325,10 +281,10 @@ DESCRIPTION:https://store.steampowered.com/app/4467420\n\n故事舞台设定在�
  已经崩坏的“古代日本”。\n在这个混乱动荡的时代，阴阳寮秘密打造出了一张王牌，那便是机关见习阴阳生“纳比之介”。\n为了寻找生活在现代的“你”的灵魂
  ，他跨越时空而来。\n玩家的灵魂将被传送到过去的世界，与纳比之介一同踏上冒险之旅。\n人类与机械、现代与过去，以及玩家与纳比之介的命运彼此交织，共同
  展开一段关于封印与羁绊的旅程。\n现在，这场冒险正式拉开序幕！\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4474280
 DTSTART:20271231T000000
 SUMMARY:封神演义 逆命承天
@@ -337,10 +293,10 @@ DESCRIPTION:https://store.steampowered.com/app/4474280\n\n漫画《封神演义�
  式启动！\n玩家可亲自操控，由藤崎龙老师全新绘制的新主角，驰骋于漫画原作「在那之后」的世界——\n挑战每次都会产生变化的迷宫，与相伴的灵兽并肩作战，
  运用种类丰富的法宝一举横扫无数敌人，享受畅快淋漓的动作战斗体验！\n与太公望、杨戬等众多熟悉的角色共同交织出全新的《封神演义》故事，原创新篇章就此揭
  开！\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4480060
 DTSTART:20271231T000000
 SUMMARY:Hidden Folks 2
@@ -349,10 +305,22 @@ DESCRIPTION:https://store.steampowered.com/app/4480060\n\nSearch for hidden
   folks in interactive miniature landscapes. Scare some giraffes\, ride a 
  few rides\, appreciate some art\, and push around some astronauts. 
  Wheeeeeeee!!!\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
+UID:4500530
+DTSTART:20270331T000000
+SUMMARY:Raging Blasters 2
+CATEGORIES:steam
+DESCRIPTION:https://store.steampowered.com/app/4500530\n\n《Raging 
+ Blasters》的续作来了！它叫做《Raging Blasters 2》。这是一款街机风格的纵向卷轴射击游戏（shmup）。玩家可以从三名飞行员中
+ 选择进行操控，投入战斗。画面像素完美，音乐包含芯片音乐（chiptune）版本。 \n\nDate string from steam: 
+ "2027-03-31"
+LAST-MODIFIED:20261025T084847Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261025T084847Z
 UID:4559070
 DTSTART:20261231T000000
 SUMMARY:There's Something Wrong with the Hero's Choices
@@ -360,10 +328,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4559070\n\n「その選択肢、正気か？」シンプルな
  ノベルゲームのはずなのに、とにかく“選択肢”がおかしい！？ 予想を超える展開が待ち受ける、奇想天外なテキストアドベンチャーゲーム！\n\nDate 
  string from steam: "2026-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4905780
 DTSTART:20270318T000000
 SUMMARY:药屋少女的呢喃 ～真假皇弟～
@@ -371,10 +339,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4905780\n\n《药屋少女的呢喃～真假皇弟～》讲述
  药师少女猫猫，在流言、毒药与阴谋的疑云中一步步逼近事件真相的故事。玩家可在后宫与王都自由探索并调查取证，并通过推理环节畅快侦破案件，亲身体验原作的魅
  力。多元玩法环环相扣，带来一场扣人心弦的悬疑推理冒险。\n\nDate string from steam: "2027-03-18"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4915490
 DTSTART:20271231T000000
 SUMMARY:MoonHack
@@ -382,10 +350,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4915490\n\n《MoonHack》是一款以歌曲改
  写世界规则的情感赛博朋克黑暗冒险游戏。剧情演出与伴随歌声展开的3D节奏动作玩法紧密融合，以歌声为武器，Hack 掌控幸福的系统规则。\n\nDate
   string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4931770
 DTSTART:20271231T000000
 SUMMARY:吾之半身乃纯白恶魔
@@ -394,10 +362,10 @@ DESCRIPTION:https://store.steampowered.com/app/4931770\n\n黑神露娜，是一�
  普通高中少女。\n某一天，一场意外让她的日常彻底改变。一位与她有着不可思议联系的神秘少女突然出现，原本平静的校园生活，也随之卷入了一连串难以解释的事
  件。\n当真相逐渐浮出水面，她们将如何面对彼此、面对命运，又将做出怎样的选择？\n——一段围绕着友情、成长与羁绊展开的校园百合物语，就此开始。\n\
  nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4942770
 DTSTART:20260929T000000
 SUMMARY:崇祯直聘：明末官场沉浮模拟器
@@ -407,10 +375,10 @@ DESCRIPTION:https://store.steampowered.com/app/4942770\n\n《崇祯直聘：明�
  兵祸与党争交织的十七年里治理城池或管理兵务政务，周旋于上司、同僚与士绅百姓之间，并走向属于你自己的结局。游戏没有善恶评分，每一次选择——秉公或贪墨、
  强硬或妥协——都通向真实且不可逆的后果。你不是在扮演好人或坏人，只是在回答：如果活在那个时代，你会成为怎样的人。\n\nDate string 
  from steam: "2026-09-29"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:4971300
 DTSTART:20261231T000000
 SUMMARY:Touhou Smash
@@ -418,10 +386,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/4971300\n\n幻想乡的少女们正面碰撞的 2D 
  平台格斗游戏。没有血条，取而代之的是不断累积的受击百分比，把对手轰出画面外的一方获胜。灵梦、魔理沙、咲夜等角色各自以专属招式作战。从同屏本地对战到与
   Steam 好友的在线乱斗，最多 4 人同乐。\n\nDate string from steam: "2026-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:5019890
 DTSTART:20271231T000000
 SUMMARY:聊斋恋：婴宁
@@ -429,10 +397,10 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/5019890\n\n唐朝末年，天下大乱，时年魑魅魍魉丛
  生，妖魔鬼怪肆虐，燕云十六州尽成鬼域，玩家将扮演一位将门家的次子，带着变成鬼的姐姐和狐妖妹妹，南下寻找传说中的世外桃源，请带着婴宁和珠姐姐一起活下去
  ！\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:5097820
 DTSTART:20270211T000000
 SUMMARY:Astonishia Story
@@ -440,12 +408,12 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/5097820\n\n经典名作模拟RPG强势回归\n忠实
  还原原作剧情，像素画面更加精美\n与罗伊德一起集结伙伴，\n夺回被抢走的凯南之杖。\n\nDate string from steam: 
  "2027-02-11"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:5137520
-DTSTART:20271231T000000
+DTSTART:20270303T000000
 SUMMARY:続ポートピア連続殺人事件:忘却の埋葬
 CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/5137520\n\nThe legendary 
@@ -453,11 +421,11 @@ DESCRIPTION:https://store.steampowered.com/app/5137520\n\nThe legendary
   of Yuji Horii comes an all-new entry featuring five brand-new 
  investigation files. Set in 1980s Kobe\, conduct your investigation 
  alongside a new cast of characters and uncover the secrets hidden behind 
- the case.\n\nDate string from steam: "2027-12-31"
-LAST-MODIFIED:20261022T090039Z
+ the case.\n\nDate string from steam: "2027-03-03"
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261022T090039Z
+DTSTAMP:20261025T084847Z
 UID:5325100
 DTSTART:20270630T000000
 SUMMARY:一起做GAL吧！
@@ -465,6 +433,6 @@ CATEGORIES:steam
 DESCRIPTION:https://store.steampowered.com/app/5325100\n\n《一起做GAL吧！》是一款文字冒险
  类游戏。你将扮演名为陆晓的失业文案，与元气过剩的制作人、傲娇毒舌的画师和沉默寡言的程序员，展开一场为了做游戏的合宿生活。在这段吵吵闹闹的日常中，能否
  完成一部让人忘不掉的作品？\n\nDate string from steam: "2027-06-30"
-LAST-MODIFIED:20261022T090039Z
+LAST-MODIFIED:20261025T084847Z
 END:VEVENT
 END:VCALENDAR
