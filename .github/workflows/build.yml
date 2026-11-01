@@ -23,7 +23,7 @@ jobs:
 
       - name: setup project with mise
         id: setup-mise
-        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
+        uses: jdx/mise-action@d5574b52816a478f9d4e6529a3f6ff17a8a36785 # v5.2.8
         with:
           install: true
           cache: true
