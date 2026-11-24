@@ -77,7 +77,7 @@ _TO_REPLACE = (
 
 def last_day_of_next_month(dt):
     """
-    Returns the datetime of the last day of the next month.
+    Return the datetime of the last day of the next month.
 
     Args:
     dt: A datetime.datetime object.
